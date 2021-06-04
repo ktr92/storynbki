@@ -6291,12 +6291,7 @@ line-height: 22px;
 		font-size: 14px;
 	}
 }
-@media (max-width: 767px) {
-	.newslist__item {
-		padding: 16px;
-		height: initial;
-	}
-}
+
 @media (max-width: 719px) {
 	
 
@@ -7022,6 +7017,9 @@ color: #000000;
 .newslist__item {
 	width: 50%;
 }
+.newslist__item_large {
+	width: 100%;
+}
 .newslist__image img {
 	position: absolute;
 	left: -99999px;
@@ -7262,6 +7260,144 @@ border-radius: 5px;
 .newslist__item_background .newslist__params {
 	order: 2;
 }
+
+.asidecols {
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.newslist__item_noimage {
+	width: 100%;
+}
+.newslist__item_noimage .newslist__name {
+	margin-bottom: 40px;
+}
+
+.asidecols__aside {
+	margin: 0 30px;
+	width: 460px;
+}
+.asidecols__aside_digit {
+	margin-top: 60px;
+}
+
+.asidecols__col {
+	width: calc(100% - 400px);
+	margin: 0 30px;
+}
+
+.asidecols {
+	margin: 0 -30px;
+}
+
+.asidecols__col {
+
+}
+
+.newslist__items_hasone {
+	margin: 0;
+}
+
+.newslist__items_hasone .newslist__item {
+	padding: 0;
+}
+
+.stickers {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.sticker {
+	font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #000000;
+padding: 6px 10px;
+background: #00E067;
+border-radius: 5px;
+}
+
+.asidecols__col {
+	position: relative;
+}
+
+.asidecols__aside {
+	position: relative;
+}
+
+.formquestion {
+	padding: 45px 0;
+}
+
+.formquestion__title {
+	margin-bottom: 30px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 29px;
+
+	color: #000000;
+}
+
+.formquestion__radio_two {
+	background: #FFFFFF;
+	box-shadow: 0px 10px 30px -5px #ECEEF6;
+	border-radius: 16px;
+}
+
+.formquestion__radioitem label span {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 29px;
+	/* identical to box height, or 121% */
+	color: #000000;	
+}
+.formquestion__radio_two {
+	display: flex;
+	align-items: center;
+}
+
+.formquestion__radio_two .formquestion__radioitem {
+	width: 50%;
+}
+
+.formquestion__radioitem label {
+	width: 100%;
+	text-align: center;
+	cursor: pointer;
+	padding: 30px 0;
+	background: #fff;
+	margin-bottom: 0;
+	transition: all 0.3s ease;
+}
+
+.formquestion__radioitem label:hover {
+background: #ECEEF6
+}
+.formquestion__radioitem  input {
+	opacity: 0;
+	width: 0;
+	height: 0;
+	display: none;
+}
+
+.formquestion__radioitem input:checked + label {
+	background: #C6CADE
+}
+
+
+
+
+
+
+
 
 @media (max-width: 961px) {
 
