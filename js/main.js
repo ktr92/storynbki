@@ -1,5 +1,16 @@
 $(document).ready(function() {
 
+    $(function() {
+        $("input[type=checkbox]").click(function(){
+            if ($(this).closest('form').find('input[type=checkbox]:checked').length == 0) {
+                $(this).closest('form').find('[type=submit]').prop('disabled', true);
+            }
+            else {
+                 $(this).closest('form').find('[type=submit]').prop('disabled', false);
+            }
+        });
+    });
+
     new WOW().init();
 
 
