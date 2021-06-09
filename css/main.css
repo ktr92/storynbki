@@ -4007,6 +4007,8 @@ color: #000000;
 
 }
 
+
+
 .newslist__item_red  .newsdate__day {
 	border:2px solid #FF0029;
 	color: #FF0029;
@@ -5039,8 +5041,67 @@ line-height: 17px;
 color: #7B7794;
 	
  }
+
+ .questions_large {
+ 	max-width: 960px;
+ }
+
+ .questions_result, .borderblock.questions_result {
+ 	background: #4563FF;
+ }
+
+  .questions_result .formquestion_large .formquestion__title {
+ 	color: #fff;
+ }
+
+  .questions_result .formquestion__checkboxitem label {
+ 	background: none;
+ 	border: 2px solid #344CCC;
+
+ }
+
+
+ 	
+ .btn_main.share {
+background: #344CCC;
+box-shadow: 0px 20px 30px -5px rgba(69, 99, 255, 0.3);
+border-radius: 16px;
+width: 100%;
+border-radius: 5px;
+
+
+ }
+.formquestion label {
+	position: relative;
+	    overflow: hidden;
+}
+ .formquestion__bg {
+ 		background: #00E067;
+ 		position: absolute;
+ 		left: 0;
+ 		top: 0;
+ 		height: 100%;
+ 		display: block;
+ 		outline: 1px solid #00E067 !important;
+ 		z-index: 0;
+ }
+
+ span.formquestion__total {
+    float: right;
+}
+
+ .formquestion__answer {
+ 	position: relative;
+ 	z-index: 1;
+ }
  
 @media (max-width: 960px) {
+	audio, canvas, progress, video {
+    display: inline-block;
+    vertical-align: baseline;
+    max-width: 100%;
+}
+
 	.headercenter {
 		width: initial;
 	}
@@ -6215,7 +6276,7 @@ line-height: 22px;
 }
 
 @media (max-width: 719px) {
-	
+
 
 	.teamfull__content {
 		padding-left: 0;
@@ -6937,11 +6998,26 @@ color: #000000;
 }
 
 .newslist__item {
-	width: 50%;
+	width: 100%;
 }
 .newslist__item_large {
 	width: 100%;
 }
+.newslist__item_full {
+	width: 100%;
+}
+
+
+
+.newslist__items_col3 .newslist__item {
+	width: 33.3333%;
+}
+
+.newslist__items_col2 .newslist__item {
+	width: 50%;
+}
+
+
 .newslist__image img {
 	position: absolute;
 	left: -99999px;
@@ -7149,14 +7225,14 @@ border-radius: 5px;
 .pageblock {
 	margin-bottom: 80px;
 }
+.singleblock {
+	margin-bottom: 80px;
+}
 
 .newlist__point img {
 
 }
 
-.newslist__item_full {
-	width: 100%;
-}
 
 .newslist__item_background .newslist__image {
 	padding-top: 116%;
@@ -7185,6 +7261,18 @@ border-radius: 5px;
 }
 .newslist__item_background .newslist__params {
 	order: 2;
+}
+
+
+.newslist__item_background .newslist__image:after {
+	content: "";
+	height: 223px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	 transform: rotate(180deg);
+	background: linear-gradient(-180deg, #505050 0%, rgba(80, 80, 80, 0.5) 72.4%, rgba(80, 80, 80, 0) 100%);
+
 }
 
 .asidecols {
@@ -7449,6 +7537,10 @@ color: #000000;
 .formquestion__checkboxitem label:hover {
 background: #ECEEF6
 }
+
+.questions_result .formquestion__checkboxitem label:hover {
+	background: inherit;
+}
 .formquestion__checkboxitem  input {
 	opacity: 0;
 	width: 0;
@@ -7529,7 +7621,122 @@ line-height: 22px;
 
 color: #000000;
 }
+.sticker_orange {
+	background: #FF7F37;
+	color: #fff;
+}
 
+.singleblock {
+	border: 2px solid #ECEEF6;
+box-sizing: border-box;
+border-radius: 16px;
+padding: 32px 42px;
+}
+.shortnews__text p {
+	font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 39px;
+/* or 122% */
+
+
+color: #000000;
+}
+
+.shortnews__params {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.pagebanner {
+	border: 2px solid #ECEEF6;
+box-sizing: border-box;
+border-radius: 16px;
+padding: 30px 50px;
+min-height: 400px;
+}
+
+
+.pagebanner__content {
+	position: relative;
+}
+.pagebanner__cols {
+	display: flex;
+	justify-content: space-between;
+}
+.pagebanner__left {
+	max-width: 670px;
+
+}
+
+.pagebanner__title {
+	font-style: normal;
+font-weight: 500;
+font-size: 42px;
+line-height: 51px;
+margin-bottom: 28px;
+
+/* Черный */
+
+color: #000000;
+}
+.pagebanner__text {
+	font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+
+/* #7B7794 */
+
+color: #7B7794;
+}
+.pagebanner__buttons {
+	display: flex;
+	align-items: center;
+	position: absolute;
+	bottom: 30px;
+	left: 0;
+}
+.pagebanner__info {
+	font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+display: flex;
+align-items: center;
+
+/* #7B7794 */
+
+color: #7B7794;
+margin-left: 30px;
+}
+.pagebanner__right {}
+.pagebanner__image {
+	margin: 10px 0 0 0;
+}
+.btn_main2 {
+		/* Синий */
+padding: 23px 31px;
+background: #4563FF;
+border-radius: 8px;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+
+text-align: center;
+
+/* #FFFFFF */
+
+color: #FFFFFF;
+
+
+}
+
+.newslist .singleblock {
+	    margin-bottom: 40px;
+}
 
 @media (max-width: 961px) {
 
@@ -7596,7 +7803,72 @@ font-size: 20px;
 	}
 
 }
+@media (max-width: 719px) {
+	.formquestion_large .formquestion__title {
+		font-style: normal;
+		font-weight: 500;
+		font-size: 22px;
+		line-height: 26px;
+		/* or 118% */
 
+
+		/* Черный */
+
+		color: #000000;
+	}
+	.formquestion__checkbox_two .formquestion__checkboxitem {
+		width: 100%;
+	}
+	.formquestion__checkboxitem label  {
+		padding: 14px 12px;
+	}
+	.formquestion__checkboxitem label span {
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 22px;
+    vertical-align: top;
+		/* Черный */
+
+		color: #000000;
+
+	}
+	.formquestion__checkboxitem label span.formquestion__smile {
+		font-size: 22px;
+		line-height: 22px;
+	}
+	.borderblock {
+		padding: 20px;
+	}
+	.formquestion__buttons {
+		    display: block;
+
+	}
+	.formquestion__text {
+		width: 100%;
+		max-width: 100%;
+		margin-bottom: 40px;
+		font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+
+/* Черный */
+
+color: #000000;
+	}
+	.formquestion__button button.btn_main.btn_main_icon {
+		width: 100%;
+
+	}
+	.borderblock {
+		box-shadow: 0px 10px 30px -5px #D3D3D3;
+		margin: 20px 0;
+	}
+
+
+
+}
 
 @media (max-width: 561px) {
 	.logo svg {
