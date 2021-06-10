@@ -270,10 +270,12 @@ input.error_input {
 .headertop__login svg circle,
 .headertop__login svg {
 	stroke: #AEB5D1;
+	fill-opacity: 1;
 }
 
 .headertop__login svg path {
 	stroke: #AEB5D1;
+	fill-opacity: 1;
 }
 
 .headertop__link {
@@ -5050,7 +5052,6 @@ border-radius: 5px;
  }
 .formquestion label {
 	position: relative;
-	    overflow: hidden;
 }
  .formquestion__bg {
  		background: #00E067;
@@ -5886,6 +5887,7 @@ line-height: 22px;
 	.header_pkr svg circle,
 	.header_pkr svg {
 		stroke: #AEB5D1;
+		fill-opacity: 1;
 	}
 	.header_pkr .headertop__login a {
 		padding: 0 10px;
@@ -6851,6 +6853,11 @@ width: 100%;
 	margin: 0 -10px;
 	padding: 15px 0;
 }
+.categories__content {
+	display: flex;
+	flex-wrap: wrap;
+
+}
 
 .categories__button {
 	display: none;
@@ -7344,10 +7351,13 @@ border-radius: 5px;
 	line-height: 29px;
 	/* identical to box height, or 121% */
 	color: #000000;	
+
+    display: contents;
 }
 .formquestion__radio_two {
 	display: flex;
 	align-items: center;
+
 }
 
 .formquestion__radio_two .formquestion__radioitem {
@@ -7362,6 +7372,23 @@ border-radius: 5px;
 	background: #fff;
 	margin-bottom: 0;
 	transition: all 0.3s ease;
+	border-radius: 16px 0px 0px 16px;
+	    padding: 0;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.questions_result .formquestion__radioitem label {
+	padding-bottom: 12px;
+}
+
+.formquestion__radio_two .formquestion__radioitem:first-child label {
+	border-radius: 16px 0px 0px 16px;
+}
+.formquestion__radio_two .formquestion__radioitem:last-child label {
+	border-radius: 	0px 16px 16px 0px ;
 }
 
 .formquestion__radioitem label:hover {
@@ -7373,6 +7400,8 @@ background: #ECEEF6
 	height: 0;
 	display: none;
 }
+
+
 
 .formquestion__radioitem input:checked + label {
 	background: #C6CADE
@@ -7520,6 +7549,24 @@ background: #ECEEF6
 	display: none;
 }
 
+.questions_result.questions_radio {
+	background: none;
+}
+
+.questions_radio span.formquestion__answer {
+    /* display: block; */
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+
+.questions_result.questions_radio .formquestion__total {
+    text-align: center;
+    float: none;
+    width: 100%;
+    padding-top: 3px;
+}
+
 .formquestion__checkboxitem input:checked + label {
 	background: #C6CADE
 }
@@ -7536,6 +7583,35 @@ background: #ECEEF6
 }
 
 
+.questions_result.questions_radio .formquestion__radioitem input:disabled + label {
+	background: #ECEEF6;
+}
+
+.questions_result.questions_radio .formquestion__bg {
+	background: #AEB5D1;
+	border-radius: 0px 0px 0px 16px;
+}
+
+.formquestion__form_radio {
+	border-radius: 16px;
+}
+.questions_result.questions_radio .formquestion__bg {
+	position: absolute;
+	bottom: 0;
+	top: unset;
+	height: 15px; 
+	border: none;
+	outline: none !important;
+}
+
+.formquestion__form_radio {
+	position: relative;
+}
+
+.questions_result.questions_radio .formquestion__total {
+    text-align: center;
+    float: none;
+}
 
 .btn_main {
 	text-align: center;
@@ -7866,13 +7942,14 @@ color: #000000;
 }
 
 .footer__socials .socials__item  svg path{
-
+fill-opacity: 1;
     fill: rgb(174, 181, 209);
 }
 
 
 .footer__socials .socials__item  svg circle{
 	stroke: rgb(174, 181, 209);
+	stroke-opacity: 1;
 }
 .footer__socials .socials__item svg {
 	width: 30px;
@@ -8027,7 +8104,134 @@ line-height: 14px;
 }
 
 @media (min-width: 560px) and (max-width: 959px) {
-		.newslist__items_col2 .newslist__item {
+		.footer__link a {
+		white-space: nowrap;
+	font-size: 30px;
+	line-height: 37px;
+	}
+	.footerlofo svg {
+		max-width: 184px;
+		width: 184px;
+		height: 33px;
+	}
+	.footer__copy, .footer__copy a {
+			font-size: 25px;
+		line-height: 29px;
+	}
+
+		.newslist__item .shortnews__text p {
+			font-size: 21px;
+			line-height: 27px;
+		}
+		.shortnews__text p {
+				font-size: 21px;
+			line-height: 27px;
+			}
+
+
+
+		.pagebanner__title {
+			    font-size: 32px;
+		    line-height: 41px;
+		}
+
+			.formquestion_large .formquestion__title {
+		 
+		    font-size: 21px;
+		    line-height: 24px;
+		}
+		.formquestion__checkboxitem label span {
+
+		    font-size: 18px;
+		    line-height: 22px;
+		}
+		.newslist__item_large .newslist__name a {
+			font-size: 33px;
+			line-height: 39px
+		}
+		.newslist__name a {
+			font-size: 33px;
+			line-height: 39px
+		}
+		.newslist__item_large .newslist__name {
+			margin-bottom: 14px;
+		}
+		.newslist__name {
+			margin-bottom: 14px;
+		}
+
+		.newslist__item_large .newlist__anonce,
+		.newlist__anonce {
+				font-size: 21px;
+		line-height: 27px;
+		}
+		.newsparams__icon svg {
+	    transform: none;
+	    width: 27px;
+	    height: 27px;
+	}
+		.newslist__item_large .newsparams__value {
+	font-size: 24px;
+			line-height: 29px;
+	}
+ .newsparams__value {
+			font-size: 24px;
+			line-height: 29px;
+	}
+	.newslist__item_large .newsparams__icon {
+    margin-right: 7px;
+	}
+	.newslist__item_large .newsparams__item {
+		margin-right: 25px;
+	}
+
+	.newsparams__item {
+		margin-right: 25px;
+	}
+	.newslist {
+		margin-bottom: 0;
+	}
+	.newslist__tag, .sticker {
+    font-size: 20px;
+	line-height: 24px;
+	padding: 6px 14px;
+	}
+	h1 {
+		font-size: 48px;
+		line-height: 58px;
+	}
+	.pagetitle__text {
+    max-width: 100%;
+    width: 100%;
+        font-size: 21px;
+    line-height: 27px;
+	}
+	.newslist__item {
+    margin-bottom: 80px;
+	}
+	.newslist__params {
+    margin-bottom: 0;
+	}
+	.newslist__image {
+		margin-bottom: 15px;
+	}
+	.newslist__item_background .newslist__name a {
+    font-size: 33px;
+    line-height: 39px;
+	}
+	 .shortnews__title {
+		  	font-size: 33px;
+			line-height: 39px
+	}
+	.footer__socials .socials__item svg {
+	    width: 60px;
+	    height: 60px;
+	}
+}
+
+
+@media (max-width: 959px) {
+	.newslist__items_col2 .newslist__item {
 		width: 100%;
 	}
 	.newslist__items_col3 .newslist__item {
@@ -8225,23 +8429,11 @@ color: #000000;
 		width: 100%;
 	}
 	
-	.footer__link a {
-		white-space: nowrap;
-	font-size: 30px;
-	line-height: 37px;
-	}
+
 	.footer__items {
 		flex-wrap: wrap;
 	}
-	.footerlofo svg {
-		max-width: 184px;
-		width: 184px;
-		height: 33px;
-	}
-	.footer__copy, .footer__copy a {
-			font-size: 25px;
-		line-height: 29px;
-	}
+	
 	.footer__cols {
 		flex-wrap: wrap;
 		position: relative;
@@ -8262,10 +8454,7 @@ color: #000000;
 	    right: 0;
 	    margin: 0;
 	}
-	.footer__socials .socials__item svg {
-	    width: 60px;
-	    height: 60px;
-	}
+	
 	.socials__items {
 		justify-content: space-between;
 	}
@@ -8286,25 +8475,13 @@ color: #000000;
   	flex-wrap: wrap;
   }
 
-  .shortnews__title {
-		  	font-size: 33px;
-			line-height: 39px
-	}
+ 
 	.smiletext__text {
   
     font-size: 16px;
     line-height: 22px;
 }
-	.newslist__item .shortnews__text p {
-		font-size: 21px;
-		line-height: 27px;
-	}
-	.shortnews__text p {
-			font-size: 21px;
-		line-height: 27px;
-		}
-
-
+	
 		.pagebanner__image img, .pagebanner__image svg {
 			max-width: 380px;
 		}
@@ -8313,46 +8490,7 @@ color: #000000;
 		    font-size: 16px;
 		    color: #000000;
 		}
-		.pagebanner__title {
-			    font-size: 32px;
-		    line-height: 41px;
-		}
-
-			.formquestion_large .formquestion__title {
-		 
-		    font-size: 21px;
-		    line-height: 24px;
-		}
-		.formquestion__checkboxitem label span {
-
-		    font-size: 18px;
-		    line-height: 22px;
-		}
-		.newslist__item_large .newslist__name a {
-			font-size: 33px;
-			line-height: 39px
-		}
-		.newslist__name a {
-			font-size: 33px;
-			line-height: 39px
-		}
-		.newslist__item_large .newslist__name {
-			margin-bottom: 14px;
-		}
-		.newslist__name {
-			margin-bottom: 14px;
-		}
-
-		.newslist__item_large .newlist__anonce,
-		.newlist__anonce {
-				font-size: 21px;
-		line-height: 27px;
-		}
-		.newsparams__icon svg {
-	    transform: none;
-	    width: 27px;
-	    height: 27px;
-	}
+		
 	.newslist__item_large .newslist__image {
 
 	    padding-top: 70%;
@@ -8367,63 +8505,12 @@ color: #000000;
     height: 100%;
     width: initial;
 	}
-	.newslist__item_large .newsparams__value {
-	font-size: 24px;
-			line-height: 29px;
-	}
- .newsparams__value {
-			font-size: 24px;
-			line-height: 29px;
-	}
-	.newslist__item_large .newsparams__icon {
-    margin-right: 7px;
-	}
-	.newslist__item_large .newsparams__item {
-		margin-right: 25px;
-	}
 
-	.newsparams__item {
-		margin-right: 25px;
-	}
-	.newslist {
-		margin-bottom: 0;
-	}
-	.newslist__tag, .sticker {
-    font-size: 20px;
-	line-height: 24px;
-	padding: 6px 14px;
-	}
-	h1 {
-		font-size: 48px;
-		line-height: 58px;
-	}
-	.pagetitle__text {
-    max-width: 100%;
-    width: 100%;
-        font-size: 21px;
-    line-height: 27px;
-	}
-	.newslist__item {
-    margin-bottom: 80px;
-	}
-	.newslist__params {
-    margin-bottom: 0;
-	}
-	.newslist__image {
-		margin-bottom: 15px;
-	}
-	.newslist__item_background .newslist__name a {
-    font-size: 33px;
-    line-height: 39px;
-	}
 	.newslist__item_background .newslist__main {
 		max-width: 480px;
 	}
 
-}
 
-
-@media (max-width: 959px) {
 	.categories__button {
 		display: block;
 		background: #ECEEF6;
@@ -8560,12 +8647,242 @@ line-height: 17px;
 }
 
 @media (max-width: 559px) {
+	.pagebanner__image img, .pagebanner__image svg {
+		max-width: 100%;
+	}
+	h1 {
+		font-size: 32px;
+		line-height: 39px;
+	}
+	.footer__socials .socials__item svg {
+	    width: 40px;
+	    height: 40px;
+	}
+	.footer__main {
+		padding: 30px 20px;
+	}
+	.footer__link a {
+			font-size: 20px;
+	line-height: 24px;
+		}
 
-	
+	.footer__copy, .footer__copy a {
+	   font-size: 16px;
+	line-height: 20px;
+		
+	}
+	.footer__logo {
+	    margin-bottom: 110px;
+	}
+	.footer__socials {
+		top: 60px;
+	}
+	.footerlofo svg {
+    max-width: 123px;
+    height: 22px;
+	}
+	.logo svg {
+    width: 123px;
+    height: 22px;
+	}
+	.menubutton svg {
+		width: 25px;	
+	}
+	.wrapper {
+    padding: 30px 0;
+	}
+	.newslist__tag, .sticker {
+		font-size: 13px;
+	line-height: 16px;
+
+	letter-spacing: 0.03em;
+	}
+	.newslist__tags, .stickers {
+		left: 10px;
+		top: 10px;
+	}
+	.newslist__item_large .newlist__point {
+		width: 40px;
+		height: 40px;
+		right: 30px;
+		bottom: 30px;
+	}
+	.newslist__item_large .newslist__image {
+		margin-bottom: 10px;
+	}
+	.newslist__image {
+		margin-bottom: 10px;
+	}
+	.newslist__item_large .newslist__params {
+		margin-bottom: 0;
+	}
+
+	.newslist__params {
+		margin-bottom: 0;
+	}
+
+	.newslist__item_large .newslist__name a {
+		font-size: 24px;
+		line-height: 29px;
+		}
+		.newslist__item_large .newslist__image {
+		  padding-top: 100%;
+		}
+	.newslist {
+    margin-bottom: 0;
+	}	
+	.newslist__item {
+   padding: 0 10px;
+	}
+	.newslist__item_large  {
+		padding: 0;
+	}
+	.newslist__items {
+    margin: 0;
+	}	
+	.container {
+    padding: 0 10px;
+	}
+	.newslist__item_large .newlist__anonce {
+		font-size: 18px;
+		line-height: 22px;
+	}
+
+	.newslist__item_large .newslist__main {
+		padding: 0 10px;
+	}
+	.newslist__item_large {
+		margin-bottom: 40px;
+	}
+	.newslist__name  {
+		margin-bottom: 10px;
+	}
+	.newslist__name a, .newslist__item_background .newslist__name a {
+		font-size: 22px;
+		line-height: 26px;
+	}
+	.newlist__anonce {
+		font-size: 14px;
+		line-height: 18px;
+	}
+	.newsparams__value {
+		font-size: 16px;
+line-height: 20px;
+	}
+	.newsparams__icon svg {
+		width: 19px;
+		height: 19px;
+		transform: none;
+	}
+	.newslist__item_background .newslist__main {
+		max-width: 100%;
+		    width: 100%;
+		    bottom: 22px;
+		    left: 10px;
+		        width: calc(100% - 20px);
+	}
+	.newlist__point {
+		display: none;
+	}
+	.newslist__item_large .newlist__point {
+		display: block;
+	}
+	.newslist__item_background .newslist__name {
+		max-width: 100%;
+	}
+
+	.newslist__name a, .newslist__item_background .newslist__name a {
+		font-size: 24px;
+		line-height: 29px;
+	}
+	.digit {
+    margin: 0 auto;
+        margin-top: -25px;
+	}
+	.newsparams {
+    margin-bottom: 10px;
+	}
+	.pageblock .newslist__items_hasone .newslist__item {
+		
+	}
+	.formquestion__radioitem br {
+		display: block;
+	}
+	.questions_result.questions_radio .formquestion__radioitem input:disabled + label {
+		background: #EBEBEB;
+	}
+	.questions_result.questions_radio .formquestion__bg {
+		background: #C4C4C4;
+	}
+	.imgblock__content {
+		padding: 72px 22px 32px 22px;
+	}
+	.imgblock__image {
+		margin-bottom: 40px;
+	}
+	.imgblock .stickers {
+		    left: 20px;
+    position: absolute;
+    top: 20px;
+	}
+	.imgblock__cols .imgblock__col:first-child {
+		padding-right: 0;
+	}
+	.singleblock {
+		padding: 22px;
+	}
+	.shortnews__text p {
+    font-size: 18px;
+    line-height: 24px;
+	}
+	.pagebanner {
+		padding: 32px 22px 22px 22px;
+	}
+	.pagebanner__title {
+		line-height: 39px;
+	}
+	.pagebanner__text {
+		margin-bottom: 15px;
+	}
+	.pagebanner__content {
+		padding-bottom: 130px;
+	}
+	.shortnews__title {
+    font-size: 18px;
+    line-height: 22px;
+	}
+	.newslist__item .shortnews__text p {
+	    font-size: 14px;
+	    line-height: 18px;
+	}
+	.smiletext__text {
+    font-size: 16px;
+    line-height: 20px;
+	}
+	.headerflex .stickers {
+		margin-bottom: 0;
+	}
+	.headerflex {
+		margin-bottom: 30px;
+	}
+	.singleblock .newslist__name a {
+    font-size: 22px;
+    line-height: 26px;
+	}
+	.singleblock  .newslist__item {
+		padding: 0;
+	}
+	.singleblock .newslist__items .newslist__item:last-child {
+		margin-bottom: 0;
+	}
 }
 
 
 @media (max-width: 374px) {
+	h1 {
+    font-size: 27px;
+    line-height: 33px;
+}
 	.logo svg {
 		width: 123px;
 		height: 22px;
@@ -8586,5 +8903,58 @@ line-height: 17px;
 	}
 	.search__input {
 		height: 22px;
+	}
+	.newslist__name a, .newslist__item_background .newslist__name a {
+    font-size: 19px;
+    line-height: 22px;
+	}
+	.newslist__item_large .newslist__name a {
+     font-size: 22px;
+    line-height: 25px;
+}
+	.newlist__anonce {
+	    font-size: 12px;
+	    line-height: 15px;
+	}
+	.newslist__item_large .newlist__anonce {
+		    font-size: 16px;
+    line-height: 20px;
+	}
+
+	.newslist__item_large .newslist__name {
+    margin-bottom: 9px;
+	}
+	.newsparams__value {
+    font-size: 14px;
+    line-height: 16px;
+	}
+	.newsparams__icon svg {
+    transform: scale(0.8);
+	}
+	.newslist__tag, .sticker {
+		 font-size: 11px;
+    line-height: 13px;
+    padding: 4px 8px;
+	}
+	.btn_main2 {
+		font-size: 22px;
+		padding: 23px 10px;
+	}
+
+	h3 {
+		font-size: 22px;
+		line-height: 27px;
+	}
+	.linkmore {
+		font-size: 16px;
+		line-height: 20px;
+	}
+	.footerlofo svg {
+    max-width: 104px;
+    height: 19px;
+	}
+	.footer__copy, .footer__copy a {
+    font-size: 14px;
+    line-height: 16px;
 	}
 }
