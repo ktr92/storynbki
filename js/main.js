@@ -33,9 +33,35 @@ $(document).ready(function() {
      
     });
 
-    
+
+    jQuery.fn.pos = function () {
+       var elem = $(this).attr('data-id');
+       var offset = $(this).offset();
+       var diff_out = $(this).outerHeight();
+      
+
+        var type = $('.asidecols__aside').find('[data-id='+elem+']').attr("data-position");
+        console.log(type);
+
+        if (type=="top") {
+            $('.asidecols__aside').find('[data-id='+elem+']').offset({top: offset.top + diff_out + 35});
+        }
+
+       if (type=="bottom") {
+            var diff_inner = Math.abs($(this).height() - $('.asidecols__aside').find('[data-id='+elem+']').height());
+            $('.asidecols__aside').find('[data-id='+elem+']').offset({top: offset.top - diff_inner});
+        }
+
+       
+       return this;
+    }
 
 
+    if ($('[data-id]').length != 0) {
+        $('.asidecols__col').find('[data-id]').each(function() {
+        $(this).pos();
+    });
+    }
 
 
 

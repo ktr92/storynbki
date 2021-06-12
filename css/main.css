@@ -7988,8 +7988,8 @@ fill-opacity: 1;
 	position: relative;
 }
 
-.newsdetail .categories__items {
-	margin: 15px 0;
+.categories_block {
+	margin: 25px 0 15px 0;
 }
 
 .newsdetail .categories__content {
@@ -8452,6 +8452,90 @@ line-height: 20px;
 
 color: #7B7794;
 }
+
+.message {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+.message__text {
+	font-style: italic;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height, or 125% */
+
+
+/* Синий */
+
+color: #4563FF;
+}
+
+a.delete {
+	font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height, or 125% */
+
+text-align: right;
+
+/* Красный */
+
+color: #FF0029;
+}
+
+
+.related {
+	margin-top: 100px;
+}
+
+.asidecaption {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 17px;
+	letter-spacing: 2px;
+	margin-bottom: 20px;
+	color: #7B7794;
+	text-transform: uppercase;
+}
+
+
+.newslist[data-id] {
+	position: absolute;
+	right: 0;
+
+}
+
+
+.dict {
+	max-width: 230px;
+	margin-bottom: 40px;
+}
+
+.asidecaption {}
+.dict__name {
+	font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height */
+margin-bottom: 9px;
+
+color: #000000;
+}
+.dict__text {
+	font-family: Formular;
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 20px;
+}
+
+
 
 @media (max-width: 1365px) {
 	.footer__logo {
