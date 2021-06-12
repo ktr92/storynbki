@@ -27,6 +27,14 @@ $(document).ready(function() {
      
     });
 
+    $('.newssort__current').on('click', function() {
+        $(this).toggleClass('active');
+        $(this).siblings('.newssort__items').slideToggle();
+     
+    });
+
+    
+
 
 
 
