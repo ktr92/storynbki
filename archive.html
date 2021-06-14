@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>STORY.NBKI</title>
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/fontawesome-free-5.15.3-web/css/fontawesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/fontawesome-free-5.15.3-web/css/brands.css">
+    <link rel="stylesheet" type="text/css" href="/libs/fontawesome-free-5.15.3-web/css/solid.css">
+    <link rel="stylesheet" type="text/css" href="/css/slick.css">
+    <link rel="stylesheet" type="text/css" href="/css/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="/libs/lightbox/css/lightbox.min.css">
+    <link rel="stylesheet" href="/css/animation.css">
+    <link rel="stylesheet" type="text/css" href="/fonts/fonts.css">
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <header id="header" class="header clearfix">
+      <a name="top"></a>
+      <div class="mainmenu">
+        <div class="mainmenu__content">
+          <div class="container">
+            <div class="search__full search search__full_menu">
+              <form action="/search/">
+                <div class="search__items">
+                  <div class="search__buttons">
+                    <button class="search__submit " type="submit">
+                      <svg width="23" height="22" viewBox="0 0 23 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M21.3024 21.7165C21.6981 22.1018 22.3312 22.0933 22.7165 21.6976C23.1018 21.3019 23.0933 20.6688 22.6976 20.2835L21.3024 21.7165ZM16.5791 9.07068C16.5791 12.9507 13.3408 16.1414 9.28954 16.1414V18.1414C14.3946 18.1414 18.5791 14.1053 18.5791 9.07068H16.5791ZM9.28954 16.1414C5.23825 16.1414 2 12.9507 2 9.07068H0C0 14.1053 4.18446 18.1414 9.28954 18.1414V16.1414ZM2 9.07068C2 5.19071 5.23825 2 9.28954 2V0C4.18446 0 0 4.03603 0 9.07068H2ZM9.28954 2C13.3408 2 16.5791 5.19071 16.5791 9.07068H18.5791C18.5791 4.03603 14.3946 0 9.28954 0V2ZM14.576 15.1676L21.3024 21.7165L22.6976 20.2835L15.9711 13.7346L14.576 15.1676Z" fill="black"/>
+                      </svg>
+                    </button>
+                  </div>
+                  <input class="search__input" type="text" name="q" placeholder="Поиск">
+                  <input type="hidden" name="city" value="">
+                </div>
+              </form>
+            </div>
+            <div class="block">
+              <div class="categories__title">Рубрикатор статей</div>
+              <div class="categories">
+                <div class="categories__button">
+                  <span class="categories__name">Рубрикатор статей</span>
+                  <span class="categories__burger">
+                    <svg width="25" height="21" viewBox="0 0 25 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect width="25" height="3" fill="#7B7794"/>
+                      <rect y="9" width="25" height="3" fill="#7B7794"/>
+                      <rect y="18" width="25" height="3" fill="#7B7794"/>
+                    </svg>
+                  </span>
+                  <span class="categories__close">
+                    <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M10.5003 8.84188L1.65839 0L0.000548551 1.65785L8.84243 10.4997L0 19.3422L1.65784 21L10.5003 12.1576L19.3421 20.9994L21 19.3416L12.1581 10.4997L20.9995 1.65843L19.3416 0.000585816L10.5003 8.84188Z" fill="#7B7794"/>
+                    </svg>
+                  </span>
+                </div>
+                <div class="categories__items categories__items_isbutton">
+                  <div class="categories__content">
+                    <div class="categories__item"><a href="">персональный кредитный рейтинг</a></div>
+                    <div class="categories__item"><a href="">кредитная история</a></div>
+                    <div class="categories__item"><a href="">автокредиты</a></div>
+                    <div class="categories__item"><a href="">кредитные карты</a></div>
+                    <div class="categories__item"><a href="">ипотека</a></div>
+                    <div class="categories__item"><a href="">микрокредиты</a></div>
+                    <div class="categories__item"><a href="">залоговые кредиты</a></div>
+                    <div class="categories__item"><a href="">товары в кредит</a></div>
+                    <div class="categories__item"><a href="">кредит на отдых</a></div>
+                    <div class="categories__item"><a href="">кредит на свое дело</a></div>
+                    <div class="categories__item"><a href="">кредитные каникулы</a></div>
+                    <div class="categories__item"><a href="">показатель долговой нагрузки</a></div>
+                    <div class="categories__item"><a href="">защита от мошенников</a></div>
+                    <div class="categories__item"><a href="">потребительские кредиты</a></div>
+                    <div class="categories__item"><a href="">рефинансирование кредита</a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header__main clearfix">
+        <div class="container">
+          <div class="headermain">
+            <div class="headermain__items">
+              <div class="headermain__item">
+                <div class="headerleft">
+                  <div class="logo">
+                    <a href="">
+                      <svg width="121" height="22" viewBox="0 0 121 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0)">
+                          <path d="M52.9591 0.0605469V22.0002H49.1422V12.4141H37.7856V22.002H33.9688V0.0605469H37.7856V8.97175H49.1422V0.0605469H52.9591Z" fill="black"/>
+                          <path d="M68.293 8.69557C73.2555 8.69557 76.0547 11.1538 76.0547 15.3332C76.0547 19.5127 73.2555 22.002 68.293 22.002H58.082V0.0605469H74.1773V3.40957H61.8989V8.69557H68.293ZM67.6252 18.7426C71.0282 18.7426 72.2058 17.4513 72.2058 15.24C72.2058 13.0579 70.9661 11.7684 67.6252 11.7684H61.8989V18.7445H67.6252V18.7426Z" fill="black"/>
+                          <path d="M79.8164 0.0605469H83.6333V9.03394H89.7734L94.132 0.0605469H98.0768L92.9864 10.724L98.3628 22.002H94.418L89.7734 12.383H83.6333V22.0002H79.8164V0.0605469Z" fill="black"/>
+                          <path d="M105.447 0.0605469V17.1459H106.211L115.594 0.0605469H121.003V22.0002H117.376V4.91489H116.612L107.229 22.0002H101.82V0.0605469H105.447Z" fill="black"/>
+                          <path d="M4.14021 16.7844C4.9698 16.7844 5.64513 17.4319 5.64513 18.2293C5.64513 19.0268 4.9698 19.6743 4.14021 19.6743C3.31061 19.6743 2.63528 19.0268 2.63528 18.2293C2.63528 17.4337 3.31061 16.7844 4.14021 16.7844ZM4.14021 16.0527C2.893 16.0527 1.88281 17.0276 1.88281 18.2293C1.88281 19.431 2.893 20.4059 4.14021 20.4059C5.38741 20.4059 6.3976 19.431 6.3976 18.2293C6.3976 17.0276 5.38741 16.0527 4.14021 16.0527Z" fill="#4563FF"/>
+                          <path d="M7.71484 21.9488H15.2395V0H7.71484V21.9488ZM11.4772 20.4855C10.23 20.4855 9.21977 19.5033 9.21977 18.2907C9.21977 17.078 10.23 16.0958 11.4772 16.0958C12.7244 16.0958 13.7346 17.078 13.7346 18.2907C13.7346 19.5033 12.7244 20.4855 11.4772 20.4855Z" fill="#4563FF"/>
+                          <path d="M20.8818 0H15.2383V21.9488H20.8818C21.9202 21.9488 22.7629 21.1294 22.7629 20.1197V1.82907C22.7629 0.819421 21.9202 0 20.8818 0ZM19.0006 20.4855C17.7534 20.4855 16.7432 19.5033 16.7432 18.2907C16.7432 17.078 17.7534 16.0958 19.0006 16.0958C20.2478 16.0958 21.258 17.078 21.258 18.2907C21.258 19.5033 20.2478 20.4855 19.0006 20.4855Z" fill="#FF0029"/>
+                          <path d="M8.08899 0.731626V21.2172H1.88116C1.2585 21.2172 0.752464 20.7251 0.752464 20.1197V1.82907C0.752464 1.22364 1.2585 0.731626 1.88116 0.731626H8.08899ZM8.84145 0H1.88116C0.84276 0 0 0.819421 0 1.82907V20.1197C0 21.1294 0.84276 21.9488 1.88116 21.9488H8.84145V0Z" fill="#4563FF"/>
+                        </g>
+                        <defs>
+                          <clipPath id="clip0">
+                            <rect width="121" height="22" fill="white"/>
+                          </clipPath>
+                        </defs>
+                      </svg>
+                    </a>
+                  </div>
+                  <div class="search__full search search__full_header onlydesktop">
+                    <form action="/search/">
+                      <div class="search__items">
+                        <div class="search__buttons">
+                          <button class="search__submit " type="submit">
+                            <svg width="23" height="22" viewBox="0 0 23 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M21.3024 21.7165C21.6981 22.1018 22.3312 22.0933 22.7165 21.6976C23.1018 21.3019 23.0933 20.6688 22.6976 20.2835L21.3024 21.7165ZM16.5791 9.07068C16.5791 12.9507 13.3408 16.1414 9.28954 16.1414V18.1414C14.3946 18.1414 18.5791 14.1053 18.5791 9.07068H16.5791ZM9.28954 16.1414C5.23825 16.1414 2 12.9507 2 9.07068H0C0 14.1053 4.18446 18.1414 9.28954 18.1414V16.1414ZM2 9.07068C2 5.19071 5.23825 2 9.28954 2V0C4.18446 0 0 4.03603 0 9.07068H2ZM9.28954 2C13.3408 2 16.5791 5.19071 16.5791 9.07068H18.5791C18.5791 4.03603 14.3946 0 9.28954 0V2ZM14.576 15.1676L21.3024 21.7165L22.6976 20.2835L15.9711 13.7346L14.576 15.1676Z" fill="black"/>
+                            </svg>
+                          </button>
+                        </div>
+                        <input class="search__input" type="text" name="q" placeholder="Поиск">
+                        <input type="hidden" name="city" value="">
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <div class="headermain__item ">
+                <div class="headerright">
+                  <div class="menubutton">
+                    <div class="menubutton__open onlydesktop">
+                      <svg width="35" height="29" viewBox="0 0 35 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="35" height="3" fill="black"/>
+                        <rect y="13" width="35" height="3" fill="black"/>
+                        <rect y="26" width="35" height="3" fill="black"/>
+                      </svg>
+                    </div>
+                    <div class="menubutton__open onlymobile">
+                      <svg width="39" height="33" viewBox="0 0 39 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="0.799805" y="0.867188" width="37.3333" height="4.48" fill="black"/>
+                        <rect x="0.800049" y="14.3066" width="37.3333" height="4.48" fill="black"/>
+                        <rect x="0.800049" y="27.7471" width="37.3333" height="4.48" fill="black"/>
+                      </svg>
+                    </div>
+                    <div class="menubutton__close">
+                      <svg width="51" height="51" viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="38.9355" y="14.1855" width="35" height="3" transform="rotate(135 38.9355 14.1855)" fill="black"/>
+                        <rect x="14.1855" y="12.0645" width="35" height="3" transform="rotate(45 14.1855 12.0645)" fill="black"/>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="wrapper">
+        <div class="container">
+          <div class="innerpage">
+            <h1>Архив материалов</h1>
+            <div class="newsset">
+            <div class="navlinks">
+              <div class="navlinks__item active"><a href="">2021</a></div>
+              <div class="navlinks__item"><a href="">2020</a></div>
+              <div class="navlinks__item"><a href="">2019</a></div>
+            </div>
+            <div class="newslist newslist_margin">
+              <div class="newslist__items newslist__items_col2">
+                <div class="newslist__item ">
+                  <div class="newslist__content">
+                    <div class="newslist__tags">
+                      <div class="newslist__tag">РУБРИКА</div>
+                    </div>
+                    <div class="newslist__image">
+                    </div>
+                    <div class="newslist__main">
+                      <div class="newslist__params">
+                        <div class="newsparams">
+                          <div class="newsparams__items">
+                            <div class="newsparams__item">
+                              <div class="newsparams__icon">
+                                <svg width="14" height="16" viewBox="0 0 14 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <path d="M0.375 6C0.15625 6 0 6.1875 0 6.375V14.5C0 15.3438 0.65625 16 1.5 16H12.5C13.3125 16 14 15.3438 14 14.5V6.375C14 6.1875 13.8125 6 13.625 6H0.375ZM14 4.625V3.5C14 2.6875 13.3125 2 12.5 2H11V0.375C11 0.1875 10.8125 0 10.625 0H9.375C9.15625 0 9 0.1875 9 0.375V2H5V0.375C5 0.1875 4.8125 0 4.625 0H3.375C3.15625 0 3 0.1875 3 0.375V2H1.5C0.65625 2 0 2.6875 0 3.5V4.625C0 4.84375 0.15625 5 0.375 5H13.625C13.8125 5 14 4.84375 14 4.625Z" fill="#AEB5D1"></path>
+                                </svg>
+                              </div>
+                              <div class="newsparams__value">00.00.2021</div>
+                            </div>
+                            <div class="newsparams__item">
+                              <div class="newsparams__icon">
+                                <svg width="17" height="14" viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <path d="M9 0C4.5625 0 1 2.9375 1 6.5C1 8.0625 1.65625 9.46875 2.78125 10.5938C2.375 12.1875 1.0625 13.5625 1.0625 13.5938C1 13.6562 0.96875 13.7812 1 13.875C1.0625 13.9688 1.125 14 1.25 14C3.3125 14 4.875 13.0312 5.625 12.4062C6.65625 12.7812 7.78125 13 9 13C13.4062 13 17 10.0938 17 6.5C17 2.9375 13.4062 0 9 0Z" fill="#AEB5D1"></path>
+                                </svg>
+                              </div>
+                              <div class="newsparams__value">00</div>
+                            </div>
+                            <div class="newsparams__item">
+                              <div class="newsparams__icon">
+                                <svg width="18" height="12" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <path d="M17.875 5.5625C16.1875 2.25 12.8125 0 9 0C5.15625 0 1.78125 2.25 0.09375 5.5625C0.03125 5.6875 0 5.84375 0 6C0 6.1875 0.03125 6.34375 0.09375 6.46875C1.78125 9.78125 5.15625 12 9 12C12.8125 12 16.1875 9.78125 17.875 6.46875C17.9375 6.34375 17.9688 6.1875 17.9688 6.03125C17.9688 5.84375 17.9375 5.6875 17.875 5.5625ZM9 10.5C6.5 10.5 4.5 8.5 4.5 6C4.5 3.53125 6.5 1.5 9 1.5C11.4688 1.5 13.5 3.53125 13.5 6V6.03125C13.5 8.5 11.4688 10.5312 9 10.5312V10.5ZM9 3C8.71875 3.03125 8.4375 3.0625 8.1875 3.125C8.375 3.375 8.46875 3.6875 8.46875 4.03125C8.46875 4.84375 7.8125 5.5 7 5.5C6.65625 5.5 6.34375 5.40625 6.09375 5.21875C6.03125 5.46875 6 5.75 6 6C6 7.65625 7.34375 9 9 9C10.6562 9 12 7.65625 12 6C12 4.34375 10.6562 3.03125 9 3.03125V3Z" fill="#AEB5D1"></path>
+                                </svg>
+                              </div>
+                              <div class="newsparams__value">00</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="newslist__name"><a href="">Как достигают по-настоящему выгодного рефинансирования</a></div>
+                      <div class="newlist__anonce">
+                        <p>Процесс, безусловно, позитивный и для банковских клиентов, и для всей экономики. Но те, кто взял «длинные» кредиты несколько лет назад, вправе почувствовать себя обделенными.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="newslist__item ">
+                  <div class="newslist__content">
+                    <div class="newslist__tags">
+                      <div class="newslist__tag">РУБРИКА</div>
+                    </div>
+                    <div class="newslist__image">
+                    </div>
+                    <div class="newslist__main">
+                      <div class="newslist__params">
+                        <div class="newsparams">
+                          <div class="newsparams__items">
+                            <div class="newsparams__item">
+                              <div class="newsparams__icon">
+                                <svg width="14" height="16" viewBox="0 0 14 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <path d="M0.375 6C0.15625 6 0 6.1875 0 6.375V14.5C0 15.3438 0.65625 16 1.5 16H12.5C13.3125 16 14 15.3438 14 14.5V6.375C14 6.1875 13.8125 6 13.625 6H0.375ZM14 4.625V3.5C14 2.6875 13.3125 2 12.5 2H11V0.375C11 0.1875 10.8125 0 10.625 0H9.375C9.15625 0 9 0.1875 9 0.375V2H5V0.375C5 0.1875 4.8125 0 4.625 0H3.375C3.15625 0 3 0.1875 3 0.375V2H1.5C0.65625 2 0 2.6875 0 3.5V4.625C0 4.84375 0.15625 5 0.375 5H13.625C13.8125 5 14 4.84375 14 4.625Z" fill="#AEB5D1"></path>
+                                </svg>
+                              </div>
+                              <div class="newsparams__value">00.00.2021</div>
+                            </div>
+                            <div class="newsparams__item">
+                              <div class="newsparams__icon">
+                                <svg width="17" height="14" viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <path d="M9 0C4.5625 0 1 2.9375 1 6.5C1 8.0625 1.65625 9.46875 2.78125 10.5938C2.375 12.1875 1.0625 13.5625 1.0625 13.5938C1 13.6562 0.96875 13.7812 1 13.875C1.0625 13.9688 1.125 14 1.25 14C3.3125 14 4.875 13.0312 5.625 12.4062C6.65625 12.7812 7.78125 13 9 13C13.4062 13 17 10.0938 17 6.5C17 2.9375 13.4062 0 9 0Z" fill="#AEB5D1"></path>
+                                </svg>
+                              </div>
+                              <div class="newsparams__value">00</div>
+                            </div>
+                            <div class="newsparams__item">
+                              <div class="newsparams__icon">
+                                <svg width="18" height="12" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <path d="M17.875 5.5625C16.1875 2.25 12.8125 0 9 0C5.15625 0 1.78125 2.25 0.09375 5.5625C0.03125 5.6875 0 5.84375 0 6C0 6.1875 0.03125 6.34375 0.09375 6.46875C1.78125 9.78125 5.15625 12 9 12C12.8125 12 16.1875 9.78125 17.875 6.46875C17.9375 6.34375 17.9688 6.1875 17.9688 6.03125C17.9688 5.84375 17.9375 5.6875 17.875 5.5625ZM9 10.5C6.5 10.5 4.5 8.5 4.5 6C4.5 3.53125 6.5 1.5 9 1.5C11.4688 1.5 13.5 3.53125 13.5 6V6.03125C13.5 8.5 11.4688 10.5312 9 10.5312V10.5ZM9 3C8.71875 3.03125 8.4375 3.0625 8.1875 3.125C8.375 3.375 8.46875 3.6875 8.46875 4.03125C8.46875 4.84375 7.8125 5.5 7 5.5C6.65625 5.5 6.34375 5.40625 6.09375 5.21875C6.03125 5.46875 6 5.75 6 6C6 7.65625 7.34375 9 9 9C10.6562 9 12 7.65625 12 6C12 4.34375 10.6562 3.03125 9 3.03125V3Z" fill="#AEB5D1"></path>
+                                </svg>
+                              </div>
+                              <div class="newsparams__value">00</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="newslist__name"><a href="">Как достигают по-настоящему выгодного рефинансирования</a></div>
+                      <div class="newlist__anonce">
+                        <p>Процесс, безусловно, позитивный и для банковских клиентов, и для всей экономики. Но те, кто взял «длинные» кредиты несколько лет назад, вправе почувствовать себя обделенными.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="newslist__item newslist__item_background">
+                  <div class="newslist__content">
+                    <div class="newslist__tags">
+                      <div class="newslist__tag">СНСП</div>
+                    </div>
+                    <div class="newslist__image">
+                      <div class="newlist__point">
+                      </div>
+                    </div>
+                    <div class="newslist__main">
+                      <div class="newslist__params">
+                        <div class="newsparams">
+                          <div class="newsparams__items">
+                            <div class="newsparams__item">
+                              <div class="newsparams__icon">
+                                <svg width="14" height="16" viewBox="0 0 14 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <path d="M0.375 6C0.15625 6 0 6.1875 0 6.375V14.5C0 15.3438 0.65625 16 1.5 16H12.5C13.3125 16 14 15.3438 14 14.5V6.375C14 6.1875 13.8125 6 13.625 6H0.375ZM14 4.625V3.5C14 2.6875 13.3125 2 12.5 2H11V0.375C11 0.1875 10.8125 0 10.625 0H9.375C9.15625 0 9 0.1875 9 0.375V2H5V0.375C5 0.1875 4.8125 0 4.625 0H3.375C3.15625 0 3 0.1875 3 0.375V2H1.5C0.65625 2 0 2.6875 0 3.5V4.625C0 4.84375 0.15625 5 0.375 5H13.625C13.8125 5 14 4.84375 14 4.625Z" fill="#AEB5D1"></path>
+                                </svg>
+                              </div>
+                              <div class="newsparams__value">00.00.2021</div>
+                            </div>
+                            <div class="newsparams__item">
+                              <div class="newsparams__icon">
+                                <svg width="17" height="14" viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <path d="M9 0C4.5625 0 1 2.9375 1 6.5C1 8.0625 1.65625 9.46875 2.78125 10.5938C2.375 12.1875 1.0625 13.5625 1.0625 13.5938C1 13.6562 0.96875 13.7812 1 13.875C1.0625 13.9688 1.125 14 1.25 14C3.3125 14 4.875 13.0312 5.625 12.4062C6.65625 12.7812 7.78125 13 9 13C13.4062 13 17 10.0938 17 6.5C17 2.9375 13.4062 0 9 0Z" fill="#AEB5D1"></path>
+                                </svg>
+                              </div>
+                              <div class="newsparams__value">00</div>
+                            </div>
+                            <div class="newsparams__item">
+                              <div class="newsparams__icon">
+                                <svg width="18" height="12" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <path d="M17.875 5.5625C16.1875 2.25 12.8125 0 9 0C5.15625 0 1.78125 2.25 0.09375 5.5625C0.03125 5.6875 0 5.84375 0 6C0 6.1875 0.03125 6.34375 0.09375 6.46875C1.78125 9.78125 5.15625 12 9 12C12.8125 12 16.1875 9.78125 17.875 6.46875C17.9375 6.34375 17.9688 6.1875 17.9688 6.03125C17.9688 5.84375 17.9375 5.6875 17.875 5.5625ZM9 10.5C6.5 10.5 4.5 8.5 4.5 6C4.5 3.53125 6.5 1.5 9 1.5C11.4688 1.5 13.5 3.53125 13.5 6V6.03125C13.5 8.5 11.4688 10.5312 9 10.5312V10.5ZM9 3C8.71875 3.03125 8.4375 3.0625 8.1875 3.125C8.375 3.375 8.46875 3.6875 8.46875 4.03125C8.46875 4.84375 7.8125 5.5 7 5.5C6.65625 5.5 6.34375 5.40625 6.09375 5.21875C6.03125 5.46875 6 5.75 6 6C6 7.65625 7.34375 9 9 9C10.6562 9 12 7.65625 12 6C12 4.34375 10.6562 3.03125 9 3.03125V3Z" fill="#AEB5D1"></path>
+                                </svg>
+                              </div>
+                              <div class="newsparams__value">00</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="newslist__name"><a href="">Как упростить получение образовательного кредита в России?</a></div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="newslist__item ">
+                  <div class="newslist__content">
+                    <div class="newslist__tags">
+                      <div class="newslist__tag">РУБРИКА</div>
+                    </div>
+                    <div class="newslist__image">
+                    </div>
+                    <div class="newslist__main">
+                      <div class="newslist__params">
+                        <div class="newsparams">
+                          <div class="newsparams__items">
+                            <div class="newsparams__item">
+                              <div class="newsparams__icon">
+                                <svg width="14" height="16" viewBox="0 0 14 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <path d="M0.375 6C0.15625 6 0 6.1875 0 6.375V14.5C0 15.3438 0.65625 16 1.5 16H12.5C13.3125 16 14 15.3438 14 14.5V6.375C14 6.1875 13.8125 6 13.625 6H0.375ZM14 4.625V3.5C14 2.6875 13.3125 2 12.5 2H11V0.375C11 0.1875 10.8125 0 10.625 0H9.375C9.15625 0 9 0.1875 9 0.375V2H5V0.375C5 0.1875 4.8125 0 4.625 0H3.375C3.15625 0 3 0.1875 3 0.375V2H1.5C0.65625 2 0 2.6875 0 3.5V4.625C0 4.84375 0.15625 5 0.375 5H13.625C13.8125 5 14 4.84375 14 4.625Z" fill="#AEB5D1"></path>
+                                </svg>
+                              </div>
+                              <div class="newsparams__value">00.00.2021</div>
+                            </div>
+                            <div class="newsparams__item">
+                              <div class="newsparams__icon">
+                                <svg width="17" height="14" viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <path d="M9 0C4.5625 0 1 2.9375 1 6.5C1 8.0625 1.65625 9.46875 2.78125 10.5938C2.375 12.1875 1.0625 13.5625 1.0625 13.5938C1 13.6562 0.96875 13.7812 1 13.875C1.0625 13.9688 1.125 14 1.25 14C3.3125 14 4.875 13.0312 5.625 12.4062C6.65625 12.7812 7.78125 13 9 13C13.4062 13 17 10.0938 17 6.5C17 2.9375 13.4062 0 9 0Z" fill="#AEB5D1"></path>
+                                </svg>
+                              </div>
+                              <div class="newsparams__value">00</div>
+                            </div>
+                            <div class="newsparams__item">
+                              <div class="newsparams__icon">
+                                <svg width="18" height="12" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <path d="M17.875 5.5625C16.1875 2.25 12.8125 0 9 0C5.15625 0 1.78125 2.25 0.09375 5.5625C0.03125 5.6875 0 5.84375 0 6C0 6.1875 0.03125 6.34375 0.09375 6.46875C1.78125 9.78125 5.15625 12 9 12C12.8125 12 16.1875 9.78125 17.875 6.46875C17.9375 6.34375 17.9688 6.1875 17.9688 6.03125C17.9688 5.84375 17.9375 5.6875 17.875 5.5625ZM9 10.5C6.5 10.5 4.5 8.5 4.5 6C4.5 3.53125 6.5 1.5 9 1.5C11.4688 1.5 13.5 3.53125 13.5 6V6.03125C13.5 8.5 11.4688 10.5312 9 10.5312V10.5ZM9 3C8.71875 3.03125 8.4375 3.0625 8.1875 3.125C8.375 3.375 8.46875 3.6875 8.46875 4.03125C8.46875 4.84375 7.8125 5.5 7 5.5C6.65625 5.5 6.34375 5.40625 6.09375 5.21875C6.03125 5.46875 6 5.75 6 6C6 7.65625 7.34375 9 9 9C10.6562 9 12 7.65625 12 6C12 4.34375 10.6562 3.03125 9 3.03125V3Z" fill="#AEB5D1"></path>
+                                </svg>
+                              </div>
+                              <div class="newsparams__value">00</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="newslist__name"><a href="">Как достигают по-настоящему выгодного рефинансирования</a></div>
+                      <div class="newlist__anonce">
+                        <p>Процесс, безусловно, позитивный и для банковских клиентов, и для всей экономики. Но те, кто взял «длинные» кредиты несколько лет назад, вправе почувствовать себя обделенными.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="newslist__item ">
+                  <div class="newslist__content">
+                    <div class="newslist__tags">
+                      <div class="newslist__tag">РУБРИКА</div>
+                    </div>
+                    <div class="newslist__image">
+                    </div>
+                    <div class="newslist__main">
+                      <div class="newslist__params">
+                        <div class="newsparams">
+                          <div class="newsparams__items">
+                            <div class="newsparams__item">
+                              <div class="newsparams__icon">
+                                <svg width="14" height="16" viewBox="0 0 14 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <path d="M0.375 6C0.15625 6 0 6.1875 0 6.375V14.5C0 15.3438 0.65625 16 1.5 16H12.5C13.3125 16 14 15.3438 14 14.5V6.375C14 6.1875 13.8125 6 13.625 6H0.375ZM14 4.625V3.5C14 2.6875 13.3125 2 12.5 2H11V0.375C11 0.1875 10.8125 0 10.625 0H9.375C9.15625 0 9 0.1875 9 0.375V2H5V0.375C5 0.1875 4.8125 0 4.625 0H3.375C3.15625 0 3 0.1875 3 0.375V2H1.5C0.65625 2 0 2.6875 0 3.5V4.625C0 4.84375 0.15625 5 0.375 5H13.625C13.8125 5 14 4.84375 14 4.625Z" fill="#AEB5D1"></path>
+                                </svg>
+                              </div>
+                              <div class="newsparams__value">00.00.2021</div>
+                            </div>
+                            <div class="newsparams__item">
+                              <div class="newsparams__icon">
+                                <svg width="17" height="14" viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <path d="M9 0C4.5625 0 1 2.9375 1 6.5C1 8.0625 1.65625 9.46875 2.78125 10.5938C2.375 12.1875 1.0625 13.5625 1.0625 13.5938C1 13.6562 0.96875 13.7812 1 13.875C1.0625 13.9688 1.125 14 1.25 14C3.3125 14 4.875 13.0312 5.625 12.4062C6.65625 12.7812 7.78125 13 9 13C13.4062 13 17 10.0938 17 6.5C17 2.9375 13.4062 0 9 0Z" fill="#AEB5D1"></path>
+                                </svg>
+                              </div>
+                              <div class="newsparams__value">00</div>
+                            </div>
+                            <div class="newsparams__item">
+                              <div class="newsparams__icon">
+                                <svg width="18" height="12" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <path d="M17.875 5.5625C16.1875 2.25 12.8125 0 9 0C5.15625 0 1.78125 2.25 0.09375 5.5625C0.03125 5.6875 0 5.84375 0 6C0 6.1875 0.03125 6.34375 0.09375 6.46875C1.78125 9.78125 5.15625 12 9 12C12.8125 12 16.1875 9.78125 17.875 6.46875C17.9375 6.34375 17.9688 6.1875 17.9688 6.03125C17.9688 5.84375 17.9375 5.6875 17.875 5.5625ZM9 10.5C6.5 10.5 4.5 8.5 4.5 6C4.5 3.53125 6.5 1.5 9 1.5C11.4688 1.5 13.5 3.53125 13.5 6V6.03125C13.5 8.5 11.4688 10.5312 9 10.5312V10.5ZM9 3C8.71875 3.03125 8.4375 3.0625 8.1875 3.125C8.375 3.375 8.46875 3.6875 8.46875 4.03125C8.46875 4.84375 7.8125 5.5 7 5.5C6.65625 5.5 6.34375 5.40625 6.09375 5.21875C6.03125 5.46875 6 5.75 6 6C6 7.65625 7.34375 9 9 9C10.6562 9 12 7.65625 12 6C12 4.34375 10.6562 3.03125 9 3.03125V3Z" fill="#AEB5D1"></path>
+                                </svg>
+                              </div>
+                              <div class="newsparams__value">00</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="newslist__name"><a href="">Как достигают по-настоящему выгодного рефинансирования</a></div>
+                      <div class="newlist__anonce">
+                        <p>Процесс, безусловно, позитивный и для банковских клиентов, и для всей экономики. Но те, кто взял «длинные» кредиты несколько лет назад, вправе почувствовать себя обделенными.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="newslist__item ">
+                  <div class="newslist__content">
+                    <div class="newslist__tags">
+                      <div class="newslist__tag">РУБРИКА</div>
+                    </div>
+                    <div class="newslist__image">
+                    </div>
+                    <div class="newslist__main">
+                      <div class="newslist__params">
+                        <div class="newsparams">
+                          <div class="newsparams__items">
+                            <div class="newsparams__item">
+                              <div class="newsparams__icon">
+                                <svg width="14" height="16" viewBox="0 0 14 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <path d="M0.375 6C0.15625 6 0 6.1875 0 6.375V14.5C0 15.3438 0.65625 16 1.5 16H12.5C13.3125 16 14 15.3438 14 14.5V6.375C14 6.1875 13.8125 6 13.625 6H0.375ZM14 4.625V3.5C14 2.6875 13.3125 2 12.5 2H11V0.375C11 0.1875 10.8125 0 10.625 0H9.375C9.15625 0 9 0.1875 9 0.375V2H5V0.375C5 0.1875 4.8125 0 4.625 0H3.375C3.15625 0 3 0.1875 3 0.375V2H1.5C0.65625 2 0 2.6875 0 3.5V4.625C0 4.84375 0.15625 5 0.375 5H13.625C13.8125 5 14 4.84375 14 4.625Z" fill="#AEB5D1"></path>
+                                </svg>
+                              </div>
+                              <div class="newsparams__value">00.00.2021</div>
+                            </div>
+                            <div class="newsparams__item">
+                              <div class="newsparams__icon">
+                                <svg width="17" height="14" viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <path d="M9 0C4.5625 0 1 2.9375 1 6.5C1 8.0625 1.65625 9.46875 2.78125 10.5938C2.375 12.1875 1.0625 13.5625 1.0625 13.5938C1 13.6562 0.96875 13.7812 1 13.875C1.0625 13.9688 1.125 14 1.25 14C3.3125 14 4.875 13.0312 5.625 12.4062C6.65625 12.7812 7.78125 13 9 13C13.4062 13 17 10.0938 17 6.5C17 2.9375 13.4062 0 9 0Z" fill="#AEB5D1"></path>
+                                </svg>
+                              </div>
+                              <div class="newsparams__value">00</div>
+                            </div>
+                            <div class="newsparams__item">
+                              <div class="newsparams__icon">
+                                <svg width="18" height="12" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <path d="M17.875 5.5625C16.1875 2.25 12.8125 0 9 0C5.15625 0 1.78125 2.25 0.09375 5.5625C0.03125 5.6875 0 5.84375 0 6C0 6.1875 0.03125 6.34375 0.09375 6.46875C1.78125 9.78125 5.15625 12 9 12C12.8125 12 16.1875 9.78125 17.875 6.46875C17.9375 6.34375 17.9688 6.1875 17.9688 6.03125C17.9688 5.84375 17.9375 5.6875 17.875 5.5625ZM9 10.5C6.5 10.5 4.5 8.5 4.5 6C4.5 3.53125 6.5 1.5 9 1.5C11.4688 1.5 13.5 3.53125 13.5 6V6.03125C13.5 8.5 11.4688 10.5312 9 10.5312V10.5ZM9 3C8.71875 3.03125 8.4375 3.0625 8.1875 3.125C8.375 3.375 8.46875 3.6875 8.46875 4.03125C8.46875 4.84375 7.8125 5.5 7 5.5C6.65625 5.5 6.34375 5.40625 6.09375 5.21875C6.03125 5.46875 6 5.75 6 6C6 7.65625 7.34375 9 9 9C10.6562 9 12 7.65625 12 6C12 4.34375 10.6562 3.03125 9 3.03125V3Z" fill="#AEB5D1"></path>
+                                </svg>
+                              </div>
+                              <div class="newsparams__value">00</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="newslist__name"><a href="">Как достигают по-настоящему выгодного рефинансирования</a></div>
+                      <div class="newlist__anonce">
+                        <p>Процесс, безусловно, позитивный и для банковских клиентов, и для всей экономики. Но те, кто взял «длинные» кредиты несколько лет назад, вправе почувствовать себя обделенными.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+          <div class="singleblock">
+            <div class="shortnews">
+              <div class="shortnews__content">
+                <div class="shortnews__params">
+                  <div class="stickers">
+                    <div class="sticker sticker_orange">Коротко о важном</div>
+                  </div>
+                  <div class="newsparams">
+                      <div class="newsparams__items">
+                        <div class="newsparams__item">
+                          <div class="newsparams__icon">
+                            <svg width="14" height="16" viewBox="0 0 14 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.375 6C0.15625 6 0 6.1875 0 6.375V14.5C0 15.3438 0.65625 16 1.5 16H12.5C13.3125 16 14 15.3438 14 14.5V6.375C14 6.1875 13.8125 6 13.625 6H0.375ZM14 4.625V3.5C14 2.6875 13.3125 2 12.5 2H11V0.375C11 0.1875 10.8125 0 10.625 0H9.375C9.15625 0 9 0.1875 9 0.375V2H5V0.375C5 0.1875 4.8125 0 4.625 0H3.375C3.15625 0 3 0.1875 3 0.375V2H1.5C0.65625 2 0 2.6875 0 3.5V4.625C0 4.84375 0.15625 5 0.375 5H13.625C13.8125 5 14 4.84375 14 4.625Z" fill="#AEB5D1"></path>
+                            </svg>
+
+                          </div>
+                          <div class="newsparams__value">00.00.2021</div>
+                        </div>
+                        <div class="newsparams__item">
+                          <div class="newsparams__icon">
+                            <svg width="17" height="14" viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9 0C4.5625 0 1 2.9375 1 6.5C1 8.0625 1.65625 9.46875 2.78125 10.5938C2.375 12.1875 1.0625 13.5625 1.0625 13.5938C1 13.6562 0.96875 13.7812 1 13.875C1.0625 13.9688 1.125 14 1.25 14C3.3125 14 4.875 13.0312 5.625 12.4062C6.65625 12.7812 7.78125 13 9 13C13.4062 13 17 10.0938 17 6.5C17 2.9375 13.4062 0 9 0Z" fill="#AEB5D1"></path>
+                            </svg>
+                          </div>
+                          <div class="newsparams__value">00</div>
+                        </div>
+                        <div class="newsparams__item">
+                          <div class="newsparams__icon">
+                            <svg width="18" height="12" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M17.875 5.5625C16.1875 2.25 12.8125 0 9 0C5.15625 0 1.78125 2.25 0.09375 5.5625C0.03125 5.6875 0 5.84375 0 6C0 6.1875 0.03125 6.34375 0.09375 6.46875C1.78125 9.78125 5.15625 12 9 12C12.8125 12 16.1875 9.78125 17.875 6.46875C17.9375 6.34375 17.9688 6.1875 17.9688 6.03125C17.9688 5.84375 17.9375 5.6875 17.875 5.5625ZM9 10.5C6.5 10.5 4.5 8.5 4.5 6C4.5 3.53125 6.5 1.5 9 1.5C11.4688 1.5 13.5 3.53125 13.5 6V6.03125C13.5 8.5 11.4688 10.5312 9 10.5312V10.5ZM9 3C8.71875 3.03125 8.4375 3.0625 8.1875 3.125C8.375 3.375 8.46875 3.6875 8.46875 4.03125C8.46875 4.84375 7.8125 5.5 7 5.5C6.65625 5.5 6.34375 5.40625 6.09375 5.21875C6.03125 5.46875 6 5.75 6 6C6 7.65625 7.34375 9 9 9C10.6562 9 12 7.65625 12 6C12 4.34375 10.6562 3.03125 9 3.03125V3Z" fill="#AEB5D1"></path>
+                            </svg>
+
+                          </div>
+                          <div class="newsparams__value">00</div>
+                        </div>
+                        
+                      </div>
+                    </div>
+                </div>
+                <div class="shortnews__main">
+                  <div class="shortnews__text">
+                    <p>В Китае с 1 января вступил в действие новый гражданский кодекс, официально узаконивший «Систему социального кредита». Суть ее заключается в начислении гражданину определенного количества баллов за хорошие поступки (законопослушность или там благотворительность) и списании – за поступки плохие. Кредитная история там тоже имеет свою «стоимость» в баллах. Всего же информаторами системы выступают 142 учреждения, которые оценивают 160 тысяч параметров.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          </div>
+
+          <div class="newsset">
+            <div class="navlinks">
+              <div class="navlinks__item "><a href="">2021</a></div>
+              <div class="navlinks__item active"><a href="">2020</a></div>
+              <div class="navlinks__item"><a href="">2019</a></div>
+            </div>
+            <div class="newslist newslist_margin">
+              <div class="newslist__items newslist__items_col2">
+                <div class="newslist__item ">
+                  <div class="newslist__content">
+                    <div class="newslist__tags">
+                      <div class="newslist__tag">РУБРИКА</div>
+                    </div>
+                    <div class="newslist__image">
+                    </div>
+                    <div class="newslist__main">
+                      <div class="newslist__params">
+                        <div class="newsparams">
+                          <div class="newsparams__items">
+                            <div class="newsparams__item">
+                              <div class="newsparams__icon">
+                                <svg width="14" height="16" viewBox="0 0 14 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <path d="M0.375 6C0.15625 6 0 6.1875 0 6.375V14.5C0 15.3438 0.65625 16 1.5 16H12.5C13.3125 16 14 15.3438 14 14.5V6.375C14 6.1875 13.8125 6 13.625 6H0.375ZM14 4.625V3.5C14 2.6875 13.3125 2 12.5 2H11V0.375C11 0.1875 10.8125 0 10.625 0H9.375C9.15625 0 9 0.1875 9 0.375V2H5V0.375C5 0.1875 4.8125 0 4.625 0H3.375C3.15625 0 3 0.1875 3 0.375V2H1.5C0.65625 2 0 2.6875 0 3.5V4.625C0 4.84375 0.15625 5 0.375 5H13.625C13.8125 5 14 4.84375 14 4.625Z" fill="#AEB5D1"></path>
+                                </svg>
+                              </div>
+                              <div class="newsparams__value">00.00.2021</div>
+                            </div>
+                            <div class="newsparams__item">
+                              <div class="newsparams__icon">
+                                <svg width="17" height="14" viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <path d="M9 0C4.5625 0 1 2.9375 1 6.5C1 8.0625 1.65625 9.46875 2.78125 10.5938C2.375 12.1875 1.0625 13.5625 1.0625 13.5938C1 13.6562 0.96875 13.7812 1 13.875C1.0625 13.9688 1.125 14 1.25 14C3.3125 14 4.875 13.0312 5.625 12.4062C6.65625 12.7812 7.78125 13 9 13C13.4062 13 17 10.0938 17 6.5C17 2.9375 13.4062 0 9 0Z" fill="#AEB5D1"></path>
+                                </svg>
+                              </div>
+                              <div class="newsparams__value">00</div>
+                            </div>
+                            <div class="newsparams__item">
+                              <div class="newsparams__icon">
+                                <svg width="18" height="12" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <path d="M17.875 5.5625C16.1875 2.25 12.8125 0 9 0C5.15625 0 1.78125 2.25 0.09375 5.5625C0.03125 5.6875 0 5.84375 0 6C0 6.1875 0.03125 6.34375 0.09375 6.46875C1.78125 9.78125 5.15625 12 9 12C12.8125 12 16.1875 9.78125 17.875 6.46875C17.9375 6.34375 17.9688 6.1875 17.9688 6.03125C17.9688 5.84375 17.9375 5.6875 17.875 5.5625ZM9 10.5C6.5 10.5 4.5 8.5 4.5 6C4.5 3.53125 6.5 1.5 9 1.5C11.4688 1.5 13.5 3.53125 13.5 6V6.03125C13.5 8.5 11.4688 10.5312 9 10.5312V10.5ZM9 3C8.71875 3.03125 8.4375 3.0625 8.1875 3.125C8.375 3.375 8.46875 3.6875 8.46875 4.03125C8.46875 4.84375 7.8125 5.5 7 5.5C6.65625 5.5 6.34375 5.40625 6.09375 5.21875C6.03125 5.46875 6 5.75 6 6C6 7.65625 7.34375 9 9 9C10.6562 9 12 7.65625 12 6C12 4.34375 10.6562 3.03125 9 3.03125V3Z" fill="#AEB5D1"></path>
+                                </svg>
+                              </div>
+                              <div class="newsparams__value">00</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="newslist__name"><a href="">Как достигают по-настоящему выгодного рефинансирования</a></div>
+                      <div class="newlist__anonce">
+                        <p>Процесс, безусловно, позитивный и для банковских клиентов, и для всей экономики. Но те, кто взял «длинные» кредиты несколько лет назад, вправе почувствовать себя обделенными.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="newslist__item ">
+                  <div class="newslist__content">
+                    <div class="newslist__tags">
+                      <div class="newslist__tag">РУБРИКА</div>
+                    </div>
+                    <div class="newslist__image">
+                    </div>
+                    <div class="newslist__main">
+                      <div class="newslist__params">
+                        <div class="newsparams">
+                          <div class="newsparams__items">
+                            <div class="newsparams__item">
+                              <div class="newsparams__icon">
+                                <svg width="14" height="16" viewBox="0 0 14 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <path d="M0.375 6C0.15625 6 0 6.1875 0 6.375V14.5C0 15.3438 0.65625 16 1.5 16H12.5C13.3125 16 14 15.3438 14 14.5V6.375C14 6.1875 13.8125 6 13.625 6H0.375ZM14 4.625V3.5C14 2.6875 13.3125 2 12.5 2H11V0.375C11 0.1875 10.8125 0 10.625 0H9.375C9.15625 0 9 0.1875 9 0.375V2H5V0.375C5 0.1875 4.8125 0 4.625 0H3.375C3.15625 0 3 0.1875 3 0.375V2H1.5C0.65625 2 0 2.6875 0 3.5V4.625C0 4.84375 0.15625 5 0.375 5H13.625C13.8125 5 14 4.84375 14 4.625Z" fill="#AEB5D1"></path>
+                                </svg>
+                              </div>
+                              <div class="newsparams__value">00.00.2021</div>
+                            </div>
+                            <div class="newsparams__item">
+                              <div class="newsparams__icon">
+                                <svg width="17" height="14" viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <path d="M9 0C4.5625 0 1 2.9375 1 6.5C1 8.0625 1.65625 9.46875 2.78125 10.5938C2.375 12.1875 1.0625 13.5625 1.0625 13.5938C1 13.6562 0.96875 13.7812 1 13.875C1.0625 13.9688 1.125 14 1.25 14C3.3125 14 4.875 13.0312 5.625 12.4062C6.65625 12.7812 7.78125 13 9 13C13.4062 13 17 10.0938 17 6.5C17 2.9375 13.4062 0 9 0Z" fill="#AEB5D1"></path>
+                                </svg>
+                              </div>
+                              <div class="newsparams__value">00</div>
+                            </div>
+                            <div class="newsparams__item">
+                              <div class="newsparams__icon">
+                                <svg width="18" height="12" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <path d="M17.875 5.5625C16.1875 2.25 12.8125 0 9 0C5.15625 0 1.78125 2.25 0.09375 5.5625C0.03125 5.6875 0 5.84375 0 6C0 6.1875 0.03125 6.34375 0.09375 6.46875C1.78125 9.78125 5.15625 12 9 12C12.8125 12 16.1875 9.78125 17.875 6.46875C17.9375 6.34375 17.9688 6.1875 17.9688 6.03125C17.9688 5.84375 17.9375 5.6875 17.875 5.5625ZM9 10.5C6.5 10.5 4.5 8.5 4.5 6C4.5 3.53125 6.5 1.5 9 1.5C11.4688 1.5 13.5 3.53125 13.5 6V6.03125C13.5 8.5 11.4688 10.5312 9 10.5312V10.5ZM9 3C8.71875 3.03125 8.4375 3.0625 8.1875 3.125C8.375 3.375 8.46875 3.6875 8.46875 4.03125C8.46875 4.84375 7.8125 5.5 7 5.5C6.65625 5.5 6.34375 5.40625 6.09375 5.21875C6.03125 5.46875 6 5.75 6 6C6 7.65625 7.34375 9 9 9C10.6562 9 12 7.65625 12 6C12 4.34375 10.6562 3.03125 9 3.03125V3Z" fill="#AEB5D1"></path>
+                                </svg>
+                              </div>
+                              <div class="newsparams__value">00</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="newslist__name"><a href="">Как достигают по-настоящему выгодного рефинансирования</a></div>
+                      <div class="newlist__anonce">
+                        <p>Процесс, безусловно, позитивный и для банковских клиентов, и для всей экономики. Но те, кто взял «длинные» кредиты несколько лет назад, вправе почувствовать себя обделенными.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+               
+                <div class="newslist__item ">
+                  <div class="newslist__content">
+                    <div class="newslist__tags">
+                      <div class="newslist__tag">РУБРИКА</div>
+                    </div>
+                    <div class="newslist__image">
+                    </div>
+                    <div class="newslist__main">
+                      <div class="newslist__params">
+                        <div class="newsparams">
+                          <div class="newsparams__items">
+                            <div class="newsparams__item">
+                              <div class="newsparams__icon">
+                                <svg width="14" height="16" viewBox="0 0 14 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <path d="M0.375 6C0.15625 6 0 6.1875 0 6.375V14.5C0 15.3438 0.65625 16 1.5 16H12.5C13.3125 16 14 15.3438 14 14.5V6.375C14 6.1875 13.8125 6 13.625 6H0.375ZM14 4.625V3.5C14 2.6875 13.3125 2 12.5 2H11V0.375C11 0.1875 10.8125 0 10.625 0H9.375C9.15625 0 9 0.1875 9 0.375V2H5V0.375C5 0.1875 4.8125 0 4.625 0H3.375C3.15625 0 3 0.1875 3 0.375V2H1.5C0.65625 2 0 2.6875 0 3.5V4.625C0 4.84375 0.15625 5 0.375 5H13.625C13.8125 5 14 4.84375 14 4.625Z" fill="#AEB5D1"></path>
+                                </svg>
+                              </div>
+                              <div class="newsparams__value">00.00.2021</div>
+                            </div>
+                            <div class="newsparams__item">
+                              <div class="newsparams__icon">
+                                <svg width="17" height="14" viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <path d="M9 0C4.5625 0 1 2.9375 1 6.5C1 8.0625 1.65625 9.46875 2.78125 10.5938C2.375 12.1875 1.0625 13.5625 1.0625 13.5938C1 13.6562 0.96875 13.7812 1 13.875C1.0625 13.9688 1.125 14 1.25 14C3.3125 14 4.875 13.0312 5.625 12.4062C6.65625 12.7812 7.78125 13 9 13C13.4062 13 17 10.0938 17 6.5C17 2.9375 13.4062 0 9 0Z" fill="#AEB5D1"></path>
+                                </svg>
+                              </div>
+                              <div class="newsparams__value">00</div>
+                            </div>
+                            <div class="newsparams__item">
+                              <div class="newsparams__icon">
+                                <svg width="18" height="12" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <path d="M17.875 5.5625C16.1875 2.25 12.8125 0 9 0C5.15625 0 1.78125 2.25 0.09375 5.5625C0.03125 5.6875 0 5.84375 0 6C0 6.1875 0.03125 6.34375 0.09375 6.46875C1.78125 9.78125 5.15625 12 9 12C12.8125 12 16.1875 9.78125 17.875 6.46875C17.9375 6.34375 17.9688 6.1875 17.9688 6.03125C17.9688 5.84375 17.9375 5.6875 17.875 5.5625ZM9 10.5C6.5 10.5 4.5 8.5 4.5 6C4.5 3.53125 6.5 1.5 9 1.5C11.4688 1.5 13.5 3.53125 13.5 6V6.03125C13.5 8.5 11.4688 10.5312 9 10.5312V10.5ZM9 3C8.71875 3.03125 8.4375 3.0625 8.1875 3.125C8.375 3.375 8.46875 3.6875 8.46875 4.03125C8.46875 4.84375 7.8125 5.5 7 5.5C6.65625 5.5 6.34375 5.40625 6.09375 5.21875C6.03125 5.46875 6 5.75 6 6C6 7.65625 7.34375 9 9 9C10.6562 9 12 7.65625 12 6C12 4.34375 10.6562 3.03125 9 3.03125V3Z" fill="#AEB5D1"></path>
+                                </svg>
+                              </div>
+                              <div class="newsparams__value">00</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="newslist__name"><a href="">Как достигают по-настоящему выгодного рефинансирования</a></div>
+                      <div class="newlist__anonce">
+                        <p>Процесс, безусловно, позитивный и для банковских клиентов, и для всей экономики. Но те, кто взял «длинные» кредиты несколько лет назад, вправе почувствовать себя обделенными.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="newslist__item ">
+                  <div class="newslist__content">
+                    <div class="newslist__tags">
+                      <div class="newslist__tag">РУБРИКА</div>
+                    </div>
+                    <div class="newslist__image">
+                    </div>
+                    <div class="newslist__main">
+                      <div class="newslist__params">
+                        <div class="newsparams">
+                          <div class="newsparams__items">
+                            <div class="newsparams__item">
+                              <div class="newsparams__icon">
+                                <svg width="14" height="16" viewBox="0 0 14 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <path d="M0.375 6C0.15625 6 0 6.1875 0 6.375V14.5C0 15.3438 0.65625 16 1.5 16H12.5C13.3125 16 14 15.3438 14 14.5V6.375C14 6.1875 13.8125 6 13.625 6H0.375ZM14 4.625V3.5C14 2.6875 13.3125 2 12.5 2H11V0.375C11 0.1875 10.8125 0 10.625 0H9.375C9.15625 0 9 0.1875 9 0.375V2H5V0.375C5 0.1875 4.8125 0 4.625 0H3.375C3.15625 0 3 0.1875 3 0.375V2H1.5C0.65625 2 0 2.6875 0 3.5V4.625C0 4.84375 0.15625 5 0.375 5H13.625C13.8125 5 14 4.84375 14 4.625Z" fill="#AEB5D1"></path>
+                                </svg>
+                              </div>
+                              <div class="newsparams__value">00.00.2021</div>
+                            </div>
+                            <div class="newsparams__item">
+                              <div class="newsparams__icon">
+                                <svg width="17" height="14" viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <path d="M9 0C4.5625 0 1 2.9375 1 6.5C1 8.0625 1.65625 9.46875 2.78125 10.5938C2.375 12.1875 1.0625 13.5625 1.0625 13.5938C1 13.6562 0.96875 13.7812 1 13.875C1.0625 13.9688 1.125 14 1.25 14C3.3125 14 4.875 13.0312 5.625 12.4062C6.65625 12.7812 7.78125 13 9 13C13.4062 13 17 10.0938 17 6.5C17 2.9375 13.4062 0 9 0Z" fill="#AEB5D1"></path>
+                                </svg>
+                              </div>
+                              <div class="newsparams__value">00</div>
+                            </div>
+                            <div class="newsparams__item">
+                              <div class="newsparams__icon">
+                                <svg width="18" height="12" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <path d="M17.875 5.5625C16.1875 2.25 12.8125 0 9 0C5.15625 0 1.78125 2.25 0.09375 5.5625C0.03125 5.6875 0 5.84375 0 6C0 6.1875 0.03125 6.34375 0.09375 6.46875C1.78125 9.78125 5.15625 12 9 12C12.8125 12 16.1875 9.78125 17.875 6.46875C17.9375 6.34375 17.9688 6.1875 17.9688 6.03125C17.9688 5.84375 17.9375 5.6875 17.875 5.5625ZM9 10.5C6.5 10.5 4.5 8.5 4.5 6C4.5 3.53125 6.5 1.5 9 1.5C11.4688 1.5 13.5 3.53125 13.5 6V6.03125C13.5 8.5 11.4688 10.5312 9 10.5312V10.5ZM9 3C8.71875 3.03125 8.4375 3.0625 8.1875 3.125C8.375 3.375 8.46875 3.6875 8.46875 4.03125C8.46875 4.84375 7.8125 5.5 7 5.5C6.65625 5.5 6.34375 5.40625 6.09375 5.21875C6.03125 5.46875 6 5.75 6 6C6 7.65625 7.34375 9 9 9C10.6562 9 12 7.65625 12 6C12 4.34375 10.6562 3.03125 9 3.03125V3Z" fill="#AEB5D1"></path>
+                                </svg>
+                              </div>
+                              <div class="newsparams__value">00</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="newslist__name"><a href="">Как достигают по-настоящему выгодного рефинансирования</a></div>
+                      <div class="newlist__anonce">
+                        <p>Процесс, безусловно, позитивный и для банковских клиентов, и для всей экономики. Но те, кто взял «длинные» кредиты несколько лет назад, вправе почувствовать себя обделенными.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+          
+
+          </div>
+
+
+
+
+
+
+        </div>
+      </div>
+    </main>
+    <footer class="footer" id="footer">
+      <div class="container">
+        <div class="footer__main">
+          <div class="footer__cols">
+            <div class="footer__left">
+              <div class="footer__items">
+                <div class="footer__logo">
+                  <div class="footerlofo">
+                    <a href="">
+                      <svg width="124" height="22" viewBox="0 0 124 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 0.5H3.5C1.84315 0.5 0.5 1.84315 0.5 3.5V18.5C0.5 20.1569 1.84315 21.5 3.5 21.5H8" stroke="#9D9D9C"/>
+                        <path d="M15 0H19C20.6569 0 22 1.34315 22 3V19C22 20.6569 20.6569 22 19 22H15V0Z" fill="#646363"/>
+                        <rect x="8" width="7" height="22" fill="#9D9D9C"/>
+                        <circle cx="18.5" cy="17.5" r="2.5" fill="white"/>
+                        <circle cx="11.5" cy="17.5" r="2.5" fill="white"/>
+                        <circle cx="4.5" cy="17.5" r="2" fill="white" stroke="#9D9D9C"/>
+                        <path d="M55.983 0V21.9982H52.1676V12.3865H40.8154V22H37V0H40.8154V8.93498H52.1676V0H55.983Z" fill="black"/>
+                        <path d="M71.311 8.65805C76.2716 8.65805 79.0697 11.1229 79.0697 15.3134C79.0697 19.504 76.2716 22 71.311 22H61.104V0H77.193V3.35795H64.9194V8.65805H71.311ZM70.6434 18.7319C74.0451 18.7319 75.2223 17.4371 75.2223 15.2199C75.2223 13.032 73.9831 11.7391 70.6434 11.7391H64.9194V18.7337H70.6434V18.7319Z" fill="black"/>
+                        <path d="M82.8281 0H86.6435V8.99733H92.7812L97.1382 0H101.081L95.993 10.6919L101.367 22H97.424L92.7812 12.3553H86.6435V21.9982H82.8281V0Z" fill="black"/>
+                        <path d="M108.451 0V17.1309H109.214L118.594 0H124V21.9982H120.374V4.86729H119.611L110.231 21.9982H104.825V0H108.451Z" fill="black"/>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+                <div class="footer__copy">
+                  <div class="footer__copy1">© Истории о кредитах 2021</div>
+                  <div class="footer__copy2"><a href="">Разработка сайта — mad!</a></div>
+                </div>
+                <div class="footer__links">
+                  <div class="footer__link"><a href="">О проекте </a></div>
+                </div>
+              </div>
+            </div>
+            <div class="footer__right">
+              <div class="footer__socials">
+                <div class="socials">
+                  <div class="socials__items">
+                    <div class="socials__item">
+                      <a href="">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path  clip-rule="evenodd" d="M3.17157 3.17157C2.42143 3.92172 2 4.93913 2 6V18C2 19.0609 2.42143 20.0783 3.17157 20.8284C3.92172 21.5786 4.93913 22 6 22H18C19.0609 22 20.0783 21.5786 20.8284 20.8284C21.5786 20.0783 22 19.0609 22 18V6C22 4.93913 21.5786 3.92172 20.8284 3.17157C20.0783 2.42143 19.0609 2 18 2H6C4.93913 2 3.92172 2.42143 3.17157 3.17157ZM4.58579 4.58579C4.96086 4.21071 5.46957 4 6 4H18C18.5304 4 19.0391 4.21071 19.4142 4.58579C19.7893 4.96086 20 5.46957 20 6V18C20 18.5304 19.7893 19.0391 19.4142 19.4142C19.0391 19.7893 18.5304 20 18 20H6C5.46957 20 4.96086 19.7893 4.58579 19.4142C4.21071 19.0391 4 18.5304 4 18V6C4 5.46957 4.21071 4.96086 4.58579 4.58579Z" fill="white" ></path>
+                          <path fill-rule="evenodd" clip-rule="evenodd" d="M7.94745 9.67958L7.94748 9.67966L7.94865 9.68308L7.95489 9.70105C7.96074 9.71781 7.96996 9.74393 7.98243 9.77843C8.0074 9.84748 8.04529 9.94985 8.09521 10.0778C8.19533 10.3343 8.34241 10.6902 8.52909 11.0845C8.91473 11.899 9.42241 12.7757 9.97498 13.3203C10.3573 13.6971 10.716 13.8671 11.0003 13.9425V10.0003C11.0003 9.44799 11.448 9.00027 12.0003 9.00027C12.5526 9.00027 13.0003 9.44799 13.0003 10.0003V12.4366L13.3097 12.1412L16.3097 9.27698C16.7092 8.8956 17.3422 8.91027 17.7236 9.30973C18.1049 9.70919 18.0903 10.3422 17.6908 10.7236L15.5663 12.7519L17.5802 14.1856C18.0302 14.5059 18.1352 15.1303 17.8149 15.5802C17.4946 16.0302 16.8702 16.1352 16.4203 15.8149L13.4203 13.6791L13.0003 13.3801V14.9286C13.0003 15.3606 12.7228 15.7438 12.3124 15.8786L12.0003 14.9286C12.3124 15.8786 12.3119 15.8788 12.3113 15.879L12.3101 15.8794L12.3077 15.8801L12.3025 15.8818L12.2904 15.8856C12.2816 15.8883 12.2714 15.8914 12.2597 15.8947C12.2365 15.9014 12.2075 15.9091 12.1733 15.9174C12.1048 15.9339 12.0145 15.9524 11.9053 15.9678C11.6875 15.9985 11.3901 16.0171 11.0391 15.9786C10.3218 15.9001 9.42553 15.587 8.57102 14.7447C7.75995 13.9453 7.13127 12.8059 6.72145 11.9403C6.5104 11.4945 6.34499 11.0943 6.23204 10.8048C6.17542 10.6597 6.13164 10.5416 6.10156 10.4584C6.08651 10.4167 6.07487 10.3838 6.06674 10.3605L6.05719 10.333L6.05441 10.3249L6.05352 10.3222L6.05321 10.3213L6.05308 10.3209C6.05303 10.3208 6.05298 10.3206 7.00027 10.0003L6.05298 10.3206C5.87605 9.79745 6.15674 9.2299 6.67991 9.05298C7.20289 8.87611 7.7702 9.15652 7.94736 9.6793L7.94741 9.67945L7.94745 9.67958Z" fill="white" ></path>
+                        </svg>
+                      </a>
+                    </div>
+                    <div class="socials__item">
+                      <a href="">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" clip-rule="evenodd" d="M7.84475 4.77475C10.4368 4.40775 13.5628 4.40775 16.1548 4.77475C18.5098 5.10875 20.3348 6.76075 20.6828 8.54075C21.1058 10.6958 21.1058 13.3038 20.6828 15.4587C20.3337 17.2387 18.5098 18.8908 16.1548 19.2248C13.5628 19.5918 10.4358 19.5918 7.84475 19.2248C5.48975 18.8908 3.66575 17.2387 3.31675 15.4587C2.89375 13.3038 2.89375 10.6958 3.31675 8.54075C3.66575 6.76075 5.48975 5.10875 7.84475 4.77475ZM16.4347 2.79475C13.6577 2.40175 10.3418 2.40175 7.56475 2.79475C4.54975 3.22175 1.89975 5.37275 1.35475 8.15675C0.88175 10.5658 0.88175 13.4338 1.35475 15.8428C1.89975 18.6268 4.54975 20.7778 7.56475 21.2048C10.3418 21.5977 13.6577 21.5977 16.4347 21.2048C19.4497 20.7778 22.0998 18.6268 22.6448 15.8428C23.1178 13.4338 23.1178 10.5658 22.6448 8.15675C22.0998 5.37275 19.4497 3.22175 16.4347 2.79475ZM10.5548 7.16775C10.4042 7.06727 10.2291 7.00956 10.0483 7.00078C9.86744 6.99199 9.68761 7.03247 9.52798 7.11788C9.36835 7.20329 9.23491 7.33043 9.14188 7.48574C9.04884 7.64105 8.99972 7.81871 8.99975 7.99975V15.9998C8.99972 16.1808 9.04884 16.3584 9.14188 16.5138C9.23491 16.6691 9.36835 16.7962 9.52798 16.8816C9.68761 16.967 9.86744 17.0075 10.0483 16.9987C10.2291 16.9899 10.4042 16.9322 10.5548 16.8318L16.5548 12.8317C16.6917 12.7404 16.804 12.6167 16.8817 12.4716C16.9593 12.3264 17 12.1644 17 11.9998C17 11.8351 16.9593 11.6731 16.8817 11.5279C16.804 11.3828 16.6917 11.2591 16.5548 11.1678L10.5548 7.16775ZM14.1967 11.9998L10.9998 14.1318V9.86875L14.1967 11.9998Z" fill="white" ></path>
+                        </svg>
+                      </a>
+                    </div>
+                    <div class="socials__item">
+                      <a href="">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" clip-rule="evenodd" d="M2 6C2 4.93913 2.42143 3.92172 3.17157 3.17157C3.92172 2.42143 4.93913 2 6 2H18C19.0609 2 20.0783 2.42143 20.8284 3.17157C21.5786 3.92172 22 4.93913 22 6V18C22 19.0609 21.5786 20.0783 20.8284 20.8284C20.0783 21.5786 19.0609 22 18 22H6C4.93913 22 3.92172 21.5786 3.17157 20.8284C2.42143 20.0783 2 19.0609 2 18V6ZM6 4C5.46957 4 4.96086 4.21071 4.58579 4.58579C4.21071 4.96086 4 5.46957 4 6V18C4 18.5304 4.21071 19.0391 4.58579 19.4142C4.96086 19.7893 5.46957 20 6 20H18C18.5304 20 19.0391 19.7893 19.4142 19.4142C19.7893 19.0391 20 18.5304 20 18V6C20 5.46957 19.7893 4.96086 19.4142 4.58579C19.0391 4.21071 18.5304 4 18 4H6ZM12 9C11.2044 9 10.4413 9.31607 9.87868 9.87868C9.31607 10.4413 9 11.2044 9 12C9 12.7956 9.31607 13.5587 9.87868 14.1213C10.4413 14.6839 11.2044 15 12 15C12.7956 15 13.5587 14.6839 14.1213 14.1213C14.6839 13.5587 15 12.7956 15 12C15 11.2044 14.6839 10.4413 14.1213 9.87868C13.5587 9.31607 12.7956 9 12 9ZM7 12C7 10.6739 7.52678 9.40215 8.46447 8.46447C9.40215 7.52678 10.6739 7 12 7C13.3261 7 14.5979 7.52678 15.5355 8.46447C16.4732 9.40215 17 10.6739 17 12C17 13.3261 16.4732 14.5979 15.5355 15.5355C14.5979 16.4732 13.3261 17 12 17C10.6739 17 9.40215 16.4732 8.46447 15.5355C7.52678 14.5979 7 13.3261 7 12ZM17.5 8C17.8978 8 18.2794 7.84196 18.5607 7.56066C18.842 7.27936 19 6.89782 19 6.5C19 6.10218 18.842 5.72064 18.5607 5.43934C18.2794 5.15804 17.8978 5 17.5 5C17.1022 5 16.7206 5.15804 16.4393 5.43934C16.158 5.72064 16 6.10218 16 6.5C16 6.89782 16.158 7.27936 16.4393 7.56066C16.7206 7.84196 17.1022 8 17.5 8Z" fill="white" ></path>
+                        </svg>
+                      </a>
+                    </div>
+                    <div class="socials__item">
+                      <a href="">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" clip-rule="evenodd" d="M2 6C2 4.93913 2.42143 3.92172 3.17157 3.17157C3.92172 2.42143 4.93913 2 6 2H18C19.0609 2 20.0783 2.42143 20.8284 3.17157C21.5786 3.92172 22 4.93913 22 6V18C22 19.0609 21.5786 20.0783 20.8284 20.8284C20.0783 21.5786 19.0609 22 18 22H6C4.93913 22 3.92172 21.5786 3.17157 20.8284C2.42143 20.0783 2 19.0609 2 18V6ZM6 4C5.46957 4 4.96086 4.21071 4.58579 4.58579C4.21071 4.96086 4 5.46957 4 6V18C4 18.5304 4.21071 19.0391 4.58579 19.4142C4.96086 19.7893 5.46957 20 6 20H12V13H11C10.7348 13 10.4804 12.8946 10.2929 12.7071C10.1054 12.5196 10 12.2652 10 12C10 11.7348 10.1054 11.4804 10.2929 11.2929C10.4804 11.1054 10.7348 11 11 11H12V9.5C12 8.57174 12.3687 7.6815 13.0251 7.02513C13.6815 6.36875 14.5717 6 15.5 6H16.1C16.3652 6 16.6196 6.10536 16.8071 6.29289C16.9946 6.48043 17.1 6.73478 17.1 7C17.1 7.26522 16.9946 7.51957 16.8071 7.70711C16.6196 7.89464 16.3652 8 16.1 8H15.5C15.303 8 15.108 8.0388 14.926 8.11418C14.744 8.18956 14.5786 8.30005 14.4393 8.43934C14.3001 8.57863 14.1896 8.74399 14.1142 8.92597C14.0388 9.10796 14 9.30302 14 9.5V11H16.1C16.3652 11 16.6196 11.1054 16.8071 11.2929C16.9946 11.4804 17.1 11.7348 17.1 12C17.1 12.2652 16.9946 12.5196 16.8071 12.7071C16.6196 12.8946 16.3652 13 16.1 13H14V20H18C18.5304 20 19.0391 19.7893 19.4142 19.4142C19.7893 19.0391 20 18.5304 20 18V6C20 5.46957 19.7893 4.96086 19.4142 4.58579C19.0391 4.21071 18.5304 4 18 4H6Z" fill="white" ></path>
+                        </svg>
+                      </a>
+                    </div>
+                    <div class="socials__item">
+                      <a href="">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="12" cy="12" r="10" stroke="white"  stroke-width="2"></circle>
+                          <path fill-rule="evenodd" clip-rule="evenodd" d="M11.9924 12.1924C10.2233 12.1924 8.78456 10.8037 8.78456 9.09664C8.78456 7.38899 10.2233 6 11.9924 6C13.7618 6 15.2002 7.38899 15.2002 9.09664C15.2002 10.8037 13.7618 12.1924 11.9924 12.1924ZM11.9918 7.8137C12.7242 7.8137 13.32 8.3886 13.32 9.0956C13.32 9.80204 12.7242 10.3773 11.9918 10.3773C11.26 10.3773 10.6636 9.80204 10.6636 9.0956C10.6636 8.3886 11.26 7.8137 11.9918 7.8137ZM15.1715 16.4954L13.3322 14.8133C14.0019 14.6738 14.6478 14.4315 15.2427 14.0899C15.693 13.8303 15.8286 13.2861 15.5449 12.8744C15.2614 12.4618 14.6667 12.3376 14.2157 12.5972C12.868 13.3721 11.1328 13.372 9.78582 12.5972C9.33481 12.3376 8.73988 12.4618 8.45698 12.8744C8.1733 13.2864 8.30854 13.8303 8.75878 14.0899C9.3537 14.4312 9.99962 14.6738 10.6694 14.8133L8.82984 16.4954C8.45383 16.8396 8.45383 17.3977 8.83024 17.7419C9.01864 17.9138 9.26511 17.9998 9.51159 17.9998C9.75846 17.9998 10.0053 17.9138 10.1937 17.7419L12.0006 16.0889L13.809 17.7419C14.185 18.086 14.7951 18.086 15.1715 17.7419C15.5483 17.3977 15.5483 16.8393 15.1715 16.4954Z" fill="white" ></path>
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="//code.jquery.com/jquery-1.9.1.js"></script>
+    <script src='//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+    <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/js/slick.min.js"></script>
+    <script src="/js/maskedinput.js"></script>  <script src="/js/wow.min.js"></script>
+    <script src="//unpkg.com/rive-js@0.7.11/dist/rive.min.js"></script>
+    <script type="text/javascript" src="/js/main.js"></script>
+  </body>
+</html>
