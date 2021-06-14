@@ -34,7 +34,8 @@ $(document).ready(function() {
     });
 
 
-    jQuery.fn.pos = function () {
+   
+    jQuery.fn.posDesktop = function () {
        var elem = $(this).attr('data-id');
        var offset = $(this).offset();
        var diff_out = $(this).outerHeight();
@@ -57,11 +58,35 @@ $(document).ready(function() {
     }
 
 
-    if ($('[data-id]').length != 0) {
-        $('.asidecols__col').find('[data-id]').each(function() {
-        $(this).pos();
+
+     if ($(window).width() > 959) { 
+         if ($('[data-id]').length != 0) {
+                $('.asidecols__col').find('[data-id]').each(function() {
+                $(this).posDesktop();
+             });
+            }
+
+     }
+     else {
+        
+     }
+
+
+    $(window).on('resize', function(){
+
+      if ($(window).width() > 959) { 
+         if ($('[data-id]').length != 0) {
+                $('.asidecols__col').find('[data-id]').each(function() {
+                $(this).posDesktop();
+             });
+            }
+
+     }
+     else {
+       
+     }
     });
-    }
+   
 
 
 
