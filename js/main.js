@@ -86,6 +86,17 @@ $(document).ready(function() {
        
      }
     });
+
+
+    $('.accordeon-titlejs').click(function (event) {
+        $(this).closest('.accordeon-js').find('.accordeon-contentjs').not($(this).next()).hide(300).removeClass('active');
+        $(this).closest('.accordeon-js').find('.accordeon-titlejs').not($(this)).removeClass('active');
+        $(this).toggleClass('active');
+        /* $([document.documentElement, document.body]).animate({
+            scrollTop: $(this).offset().top
+        }, 400);*/
+        $(this).next('.accordeon-contentjs').slideToggle();
+    });
    
 
 
