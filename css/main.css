@@ -1094,29 +1094,7 @@ a.btn_main.btn_main_default.btn_main_inwhite.disabled {
 	width: 33.3333%;
 }
 
-.btn_border {
-	font-style: normal;
-	font-weight: normal;
-	font-size: 18px;
-	line-height: 22px;
-	text-align: center;
-	height: 48px;
-	line-height: 48px;
-	white-space: nowrap;
-	color: #FFFFFF;
-	border: 1px solid #FFFFFF;
-	box-sizing: border-box;
-	border-radius: 5px;
-	display: inline-block;
-	padding: 0 35px;
-	background: none;
-}
 
-.btn_border:hover,
-.btn_border:focus {
-	color: #4563FF;
-	border: 1px solid #4563FF;
-}
 
 .stats__numb {
 	font-family: 'Formular Mono';
@@ -7001,6 +6979,7 @@ color: #000000;
 	margin: auto;
 	max-height: 100%;
     max-width: initial;
+
 }
 
 .newslist__image {
@@ -7010,6 +6989,18 @@ color: #000000;
 	padding-top: 56.192%;
 	margin-bottom: 10px;
 }
+
+.newslist__image_haspng {
+	overflow: visible;
+	background-size: cover;
+}
+
+img.newslist_png {
+    max-width: initial !important;
+    max-height: initial !important;
+}
+
+
 
 .newslist__params {
 	margin-bottom: 10px;
@@ -7307,7 +7298,7 @@ font-size: 14px;
 line-height: 17px;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-
+margin-bottom: 5px;
 color: #000000;
 padding: 6px 10px;
 background: #00E067;
@@ -7628,9 +7619,33 @@ font-size: 24px;
 line-height: 29px;
 text-align: center;
 border: none;
-
+margin-bottom: 10px;
+}
+.btn_border {
+	text-align: center;
+	transition: all 0.3s ease;
+	opacity: 1;
+	color: #4563FF;
+	white-space: nowrap;
+		border-radius: 5px;
+	background: #FFF;
+	display: inline-block;
+	padding: 15px 40px;
+	font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+border: 2px solid #4563FF;
+margin-bottom: 10px;
 }
 
+
+.btn_border:hover,
+.btn_border:focus {
+	color: #4563FF;
+	border: 2px solid #4563FF;
+}
 
 .btn_main_icon {
 	display: inline-flex;
@@ -7674,6 +7689,14 @@ color: #000000;
 }
 .sticker_orange {
 	background: #FF7F37;
+	color: #fff;
+}
+.sticker_gray {
+	background: #AEB5D1;
+	color: #fff;
+}
+.sticker_gray2 {
+	background: rgba(123, 119, 148, 0.7);
 	color: #fff;
 }
 
